@@ -1,4 +1,4 @@
-# Interview prep
+# How to interview prep
 
 A plan of attack to prepare for the interview:
 
@@ -11,7 +11,7 @@ A plan of attack to prepare for the interview:
 
 Here are more details on each item:
 
-**Work through good interview prep resources**
+## Work through good interview prep resources
 
 Find good resources to work through. There's a lot of good material out there so don't limit yourself to these, but some good ones I've used are:
 
@@ -20,14 +20,14 @@ Find good resources to work through. There's a lot of good material out there so
 - **Leetcode** ($0 to $35/mo) - a site with a huge number of real interview problems from software companies, which you need to solve with efficient solutions. There's a guide on what problems to work through in [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/best-practice-questions/).
 - [**Tech Interview Handbook**](https://yangshun.github.io/tech-interview-handbook) (free) - a comprehensive guide to the technical interview
 
-**Learn essential data structures and algorithms**
+## Learn essential data structures and algorithms
 
 - [Strings](https://yangshun.github.io/tech-interview-handbook/algorithms/string)
 - [Trees](https://yangshun.github.io/tech-interview-handbook/algorithms/tree)
 - [Graphs](https://yangshun.github.io/tech-interview-handbook/algorithms/graph)
 - [Linked lists](https://yangshun.github.io/tech-interview-handbook/algorithms/linked-list)
 
-**Learn strategies for solving difficult algorithmic problems**
+## Learn strategies for solving difficult algorithmic problems
 
 - Ask clarifying questions early before diving into the code
 - Always describe a naive, brute force solution first. You may not necessarily implement it, though - the interviewer may ask you for a more efficient solution. [[1]](https://medium.com/@yashgirdhar/11-companies-55-interviews-9-offers-including-google-and-amazon-heres-what-i-have-to-share-293852c1c98f) [[2]](https://yangshun.github.io/tech-interview-handbook/during-coding-interview)
@@ -36,7 +36,7 @@ Find good resources to work through. There's a lot of good material out there so
 - When you're done, carefully review your solution. Look it over line-by-line, and test it with example inputs. [[1]](https://yangshun.github.io/tech-interview-handbook/during-coding-interview#after-coding)
 - [Tips from Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/algorithms/algorithms-introduction)
 
-**Practice whiteboarding and thinking out loud**
+## Practice whiteboarding and thinking out loud
 
 Whiteboarding is nervewracking! Practicing whiteboarding with a friend is essential to getting more comfortable and to get you used to thinking out loud. [[1]](https://blog.usejournal.com/i-interviewed-at-six-top-companies-in-silicon-valley-in-six-days-and-stumbled-into-six-job-offers-fe9cc7bbc996)
 
@@ -44,7 +44,7 @@ For technical problems, interviewers generally like to see a candidate explain t
 
 [https://interviewing.io](https://interviewing.io/) is a site where you can practice realistic algorithmic interviews with engineers for free. `TODO`
 
-**Do your research on companies**
+## Do your research on companies
 
 Every company has different interview processes. If possible, look into what kinds of questions the company tends to ask (Glassdoor or Leetcode are places to start, but there are other resources online).
 
@@ -57,7 +57,7 @@ There are a lot of ways to find interesting startups to apply to, but here are a
 - [https://breakoutlist.com/all/](https://breakoutlist.com/all/)
 - [https://hired.com/](https://hired.com/)
 
-**Prep for behavioral questions and prep questions to ask interviewers**
+## Prep for behavioral questions and prep questions to ask interviewers
 
 Behavioral questions are non-technical, verbal questions. The interviewer is trying to evaluate whether you can communicate effectively and clearly about your experience and motivations. [Here's an example of using the STAR framework to answer a behavioral question well](https://yangshun.github.io/tech-interview-handbook/star-format).
 
@@ -73,7 +73,7 @@ Questions to ask interviewers: `TODO`
 
 - [List of questions to ask](https://yangshun.github.io/tech-interview-handbook/questions-to-ask)
 
-**Have a good side project**
+## Have a good side project
 
 In my opinion, this is one of the better ways to stand out as a candidate, particularly when you're just starting out in your career. Be ready to explain your side project simply and clearly, so that a technical or non-technical interviewer can understand it. It's best if this project does something interesting or substantial either on the frontend or backend.
 
@@ -101,3 +101,11 @@ Some tips for your project:
 - Write tests if possible
 
 A side project is always easier if it's about something you care about. What are your interests? For me, I like music a lot, so I built a map that displays nearby concerts. You can also build a tool to solve a pain point you have, something you've encountered in everyday life — like a chrome extension that generates Github release notes.
+
+## References
+
+- [Google Interview Questions Deconstructed: Synonymous Queries](https://medium.com/@alexgolec/google-interview-problems-synonymous-queries-36425145387c) - a great post
+- [Google Interview Problems: Ratio Finder](https://medium.com/@alexgolec/google-interview-problems-synonymous-queries-36425145387c) - a good breakdown of how to think about a graph search problem
+- [11 companies, 55 Interviews, 9 offers](https://medium.com/@yashgirdhar/11-companies-55-interviews-9-offers-including-google-and-amazon-heres-what-i-have-to-share-293852c1c98f) - `TODO`
+- [https://github.com/kdn251/interviews](https://github.com/kdn251/interviews) - overview of algorithms and data structures, prep resources, and problem solutions in Java
+- [https://github.com/yangshun/lago](https://github.com/yangshun/lago) - data structures and algorithms in JS

@@ -1,4 +1,4 @@
-# **The interview process**
+# The interview process
 
 Interview processes vary widely; [here are some interview formats](https://yangshun.github.io/tech-interview-handbook/interview-formats#formats-of-famous-companies) for specific companies. In my experience, these are common phases of the interview process for startups:
 
@@ -7,13 +7,13 @@ Interview processes vary widely; [here are some interview formats](https://yangs
 3. Take-home challenge (possibly)
 4. On-site interview
 
-**1. The initial phone call**
+## 1. The initial phone call
 
 This is to evaluate whether continuing the process makes sense for both parties. They'll ask you about your background and experience. Enthusiasm for the company and mission and being well-spoken is often useful here.
 
 See the earlier "Prep for behavioral questions" section for possible questions here.
 
-**2. The technical phone screen**
+## 2. The technical phone screen
 
 This is usually a 1 hour phone call where an engineer or engineering manager asks you technical questions to evaluate whether to continue with the process.
 
@@ -25,7 +25,7 @@ Possible examples of questions you might see:
 
 - `TODO`
 
-**3. The take-home challenge (possibly)**
+## 3. The take-home challenge (possibly)
 
 Some companies will issue a take-home challenge, which usually ranges from 1 to 4 hours, to be completed on your own time.
 
@@ -34,7 +34,7 @@ A few recommendations:
 - Solve the base requirements of the challenge as quickly as possible without being bogged down by minor details. After that, you can feel comfortable to refactor your code.
 - If you have time, write good tests. This is one way for you to stand out against other applicants, because tests aren't always prioritized highly by candidates.
 
-**4. The onsite interview**
+## 4. The onsite interview
 
 This is generally the most important factor in a hiring decision — the earlier phases usually serve to get you here. This can take around 5 hours and usually has you meeting with a variety of people on the team. Each person will ask you either technical questions or behavioral questions, and usually they'll all leave around 10 minutes for you to ask them questions as well.
 
