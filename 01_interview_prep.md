@@ -1,4 +1,4 @@
-# How to interview prep
+# How to effectively interview prep
 
 A plan of attack to prepare for the interview:
 
