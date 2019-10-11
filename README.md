@@ -8,10 +8,10 @@ This course is geared towards helping bootcamp grads and self-taught learners to
 2. Give an introduction to **important CS concepts**. There isn't nearly enough time to cover computer science fundamentals in depth, so this provides a quick overview and resources for further study.
 3. Give students a chance to **practice solving algorithms questions** with each other.
 
-The curriculum will consist of 4 sessions. Each session, I'll talk for about an hour on topics like CS theory, testing, or behavioral questions. Then we'll use the rest of the time to practice solving algorithms questions together.
+In each class session, I'll talk for about an hour on topics like CS theory, testing, or behavioral questions. Then we'll use the rest of the time to practice solving algorithms questions together.
 
 
-## Session 1: Overview of the Interview Process & Technical Phone Screen Practice
+## Session 1 — Overview of the Interview Process & Technical Phone Screen Practice
 
 * [**How to effectively interview prep**](01_interview_prep.md) [25 min] - recommended prep resources, strategies for solving difficult problems, thinking out loud, doing your research, behavioral questions, and side projects.
 * [**The interview process**](02_the_interview_process.md) [25 min] - the different stages of an interview process, including the technical phone screen, take-home challenges, and the onsite.
