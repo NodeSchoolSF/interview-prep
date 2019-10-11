@@ -46,10 +46,3 @@ General advice:
 - **"Do you have any questions for me?"**  Interviewers will often leave time for you to ask them questions, and by the end of the day this will add up to a lot of time for your questions. These questions do matter — they can be used to assess what you're interested in (the tech stack? the mission?), and if you have an especially good question, an interviewer may take note of it. Be prepared to have at least some basic questions for each interviewer, and ideally have some tailored questions based on the product or company that demonstrate your interest in the mission.
 - **You can admit you don't know something.** If you don't know something knowledge-based (i.e. a programming language construct or technology), interviewers will be able to tell. It can be better to own up to it and say you don't know something upfront instead of struggling with something that you can't deduce on the spot. This doesn't necessarily mean you should give up, though, if it's a question you can figure out.
 
-## References
-
-- [Google Interview Questions Deconstructed: Synonymous Queries](https://medium.com/@alexgolec/google-interview-problems-synonymous-queries-36425145387c) - a great post
-- [Google Interview Problems: Ratio Finder](https://medium.com/@alexgolec/google-interview-problems-synonymous-queries-36425145387c) - a good breakdown of how to think about a graph search problem
-- [11 companies, 55 Interviews, 9 offers](https://medium.com/@yashgirdhar/11-companies-55-interviews-9-offers-including-google-and-amazon-heres-what-i-have-to-share-293852c1c98f) - `TODO`
-- [https://github.com/kdn251/interviews](https://github.com/kdn251/interviews) - overview of algorithms and data structures, prep resources, and problem solutions in Java
-- [https://github.com/yangshun/lago](https://github.com/yangshun/lago) - data structures and algorithms in JS
