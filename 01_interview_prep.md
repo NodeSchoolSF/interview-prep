@@ -6,7 +6,7 @@ A plan of attack to prepare for the interview:
 - Learn strategies for solving difficult algorithmic problems
 - Practice whiteboarding and thinking out loud
 - Do your research on companies
-- Prep for behavioral questions and prep questions to ask interviewers
+- Prep for behavioral questions & questions to ask interviewers
 - Have a good side project
 
 Here are more details on each item:
@@ -57,9 +57,9 @@ There are a lot of ways to find interesting startups to apply to, but here are a
 - [https://breakoutlist.com/all/](https://breakoutlist.com/all/)
 - [https://hired.com/](https://hired.com/)
 
-## Prep for behavioral questions and prep questions to ask interviewers
+## Prep for behavioral questions & questions to ask interviewers
 
-Behavioral questions are non-technical, verbal questions. The interviewer is trying to evaluate whether you can communicate effectively and clearly about your experience and motivations. [Here's an example of using the STAR framework to answer a behavioral question well](https://yangshun.github.io/tech-interview-handbook/star-format).
+**Behavioral questions** are non-technical, verbal questions. The interviewer is trying to evaluate whether you can communicate effectively and clearly about your experience and motivations. [Here's an example of using the STAR framework to answer a behavioral question well](https://yangshun.github.io/tech-interview-handbook/star-format).
 
 Common behavioral questions:
 
@@ -69,7 +69,9 @@ Common behavioral questions:
 - **What are you looking for in your next position? `TODO`**
 - [Here's a list of common behavioral questions from Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/behavioral-questions/)
 
-Questions to ask interviewers: `TODO`
+**Questions to ask interviewers**: you'll also want to be prepared to have some questions for each interviewer (which can end up being a lot of questions at an onsite with 5 interviewers). The questions you ask can have an impact! Interviewers may use them to judge what your priorities are  and whether you're interested in the mission.
+
+`TODO`
 
 - [List of questions to ask](https://yangshun.github.io/tech-interview-handbook/questions-to-ask)
 
