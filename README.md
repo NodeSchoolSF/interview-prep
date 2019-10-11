@@ -17,11 +17,11 @@ In each class session, I'll talk for about an hour on topics like CS theory, tes
 * [**The interview process**](02_the_interview_process.md) [20 min] - the different stages of an interview process, including the technical phone screen, take-home challenges, and the onsite.
 * **Technical phone screen practice** [90 min]: Folks will group into pairs, and each reads the question and solution to one of two different technical screening questions. Then, they take turns being interviewer and interviewee, with the interviewee trying to solve it by coding up a solution on their computer while the other person observes with the solution in hand. I'll review the answers, showing how I would code it up on a TV.
 ⚠️Tentative format, may be adjusted.
-* **CS fundamentals** [60+ min]: Big O notation (runtime and space). Basic data structures like strings, arrays, stacks, queues, sets, and hash tables (implement one of them, talk about when you would use each one). Recursion
+* **CS fundamentals** [90 min]: Big O notation (runtime and space). Basic data structures like strings, arrays, stacks, queues, sets, and hash tables (implement one of them, talk about when you would use each one). Recursion
 
 ## Session 2 — Testing, CS Fundamentals, & Whiteboarding Practice
 
 * **Testing** [30 min]: how to unit test a typical javascript/node function that could show up in an interview. This can also cover more real-world node app testing, with mocking. I'll ask folks to unit test another example function.
-* **Whiteboarding practice** [60+ min]: Folks will group into pairs, and each reads the question and solution to one of two different whiteboarding algorithm questions. Then, each person take turns being interviewer and interviewee, with the interviewee trying to solve it by writing up a solution on the whiteboard while the other person observes with the solution in hand. Afterward, I'll show how I would approach whiteboarding the answer.
+* **Whiteboarding practice** [90 min]: Folks will group into pairs, and each reads the question and solution to one of two different whiteboarding algorithm questions. Then, each person take turns being interviewer and interviewee, with the interviewee trying to solve it by writing up a solution on the whiteboard while the other person observes with the solution in hand. Afterward, I'll show how I would approach whiteboarding the answer.
 ⚠️Tentative format, may be adjusted.
 * **CS Fundamentals** [60 min]: Recursion. Trees and tree traversal, graphs and graph search (depth-first, breadth-first).
