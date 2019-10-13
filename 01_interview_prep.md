@@ -22,14 +22,17 @@ Find good resources to work through. There's a lot of good material out there so
 
 ## Learn essential data structures and algorithms
 
+- [Arrays](https://yangshun.github.io/tech-interview-handbook/algorithms/array)
 - [Strings](https://yangshun.github.io/tech-interview-handbook/algorithms/string)
 - [Trees](https://yangshun.github.io/tech-interview-handbook/algorithms/tree)
 - [Graphs](https://yangshun.github.io/tech-interview-handbook/algorithms/graph)
 - [Linked lists](https://yangshun.github.io/tech-interview-handbook/algorithms/linked-list)
+- [Tries](https://yangshun.github.io/tech-interview-handbook/algorithms/trie/) - can appear in string search and prefix search problems
 
 ## Learn strategies for solving difficult algorithmic problems
 
 - Ask clarifying questions early before diving into the code
+- Try a few concrete examples
 - Always describe a naive, brute force solution first. You may not necessarily implement it, though - the interviewer may ask you for a more efficient solution. [[1]](https://medium.com/@yashgirdhar/11-companies-55-interviews-9-offers-including-google-and-amazon-heres-what-i-have-to-share-293852c1c98f) [[2]](https://yangshun.github.io/tech-interview-handbook/during-coding-interview)
 - When you solve a new problem, keep notes on things you learned [[1]](https://medium.com/@yashgirdhar/11-companies-55-interviews-9-offers-including-google-and-amazon-heres-what-i-have-to-share-293852c1c98f)
 - Find common patterns for solving problems [[1]](https://medium.com/@yashgirdhar/11-companies-55-interviews-9-offers-including-google-and-amazon-heres-what-i-have-to-share-293852c1c98f)
