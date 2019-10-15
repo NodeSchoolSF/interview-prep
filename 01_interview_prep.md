@@ -22,8 +22,17 @@ Find good resources to work through. There's a lot of good material out there so
 
 ## Learn essential data structures and algorithms
 
-- [Arrays](https://yangshun.github.io/tech-interview-handbook/algorithms/array)
-- [Strings](https://yangshun.github.io/tech-interview-handbook/algorithms/string)
+Algorithms:
+
+- Big O analysis (Cracking the Coding Interview, Ch. IV)
+  - Concepts: Time and space, amortization, log(n) runtimes (e.g. binary search), multiple inputs (e.g. two arrays, array of strings of different lengths), 
+  - [Valid Anagram](https://leetcode.com/problems/valid-anagram/) is a typical example of an array problem with obvious O(n^2) solution, but a better O(n) solution.
+
+
+Data structures:
+
+- Arrays and strings
+  - Leetcode questions: [arrays](https://yangshun.github.io/tech-interview-handbook/algorithms/array), [strings](https://yangshun.github.io/tech-interview-handbook/algorithms/string)
 - [Trees](https://yangshun.github.io/tech-interview-handbook/algorithms/tree)
 - [Graphs](https://yangshun.github.io/tech-interview-handbook/algorithms/graph)
 - [Linked lists](https://yangshun.github.io/tech-interview-handbook/algorithms/linked-list)
