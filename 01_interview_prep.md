@@ -24,19 +24,36 @@ Find good resources to work through. There's a lot of good material out there so
 
 Algorithms:
 
-- Big O analysis (Cracking the Coding Interview, Ch. IV)
+- Big O analysis
   - Concepts: Time and space, amortization, log(n) runtimes (e.g. binary search), multiple inputs (e.g. two arrays, array of strings of different lengths), 
   - [Valid Anagram](https://leetcode.com/problems/valid-anagram/) is a typical example of an array problem with obvious O(n^2) solution, but a better O(n) solution.
+  - References: Cracking the Coding Interview, Ch. IV
 
 
 Data structures:
 
-- Arrays and strings
+- Arrays and Strings
   - Leetcode questions: [arrays](https://yangshun.github.io/tech-interview-handbook/algorithms/array), [strings](https://yangshun.github.io/tech-interview-handbook/algorithms/string)
+  - References: Cracking the Coding Interview, Ch. 1
+- Linked lists
+  - `class ListNode { value: any, next: ListNode | null, prev: ListNode | null }`
+  - Concepts: know how to implement a Node class, singly vs doubly linked, deletion, "runner" technique of having a regular and a 2x faster iterator
+  - [Leetcode questions](https://yangshun.github.io/tech-interview-handbook/algorithms/linked-list)
+- Stacks and Queues
+  - References: Cracking the Coding Interview, Ch. 3
+  - Concepts: know how to write a Stack class using arrays or linked lists, implementing a Queue with a linked list, using stacks to implement recursive algorithms iteratively
 - [Trees](https://yangshun.github.io/tech-interview-handbook/algorithms/tree)
+  - Concepts: binary tree traversal (in-order, pre-order, post-order)
+  - `class TreeNode { value: any, children: TreeNode[] }`
+  - References: Cracking the Coding Interview, Ch. 4
 - [Graphs](https://yangshun.github.io/tech-interview-handbook/algorithms/graph)
-- [Linked lists](https://yangshun.github.io/tech-interview-handbook/algorithms/linked-list)
-- [Tries](https://yangshun.github.io/tech-interview-handbook/algorithms/trie/) - can appear in string search and prefix search problems
+  - Adjacency list: `class Graph { nodes: GraphNode[] }; class GraphNode { value: any, neighbors: GraphNode[] }`
+  - Intuition on what can be translated into a graph problem (e.g. a maze)
+  - Depth-first search (DFS): explore a branch fully before going to other neighborss. Simpler than BFS. Can be implemented recursively, or with a stack.
+  - Breadth-first search (BFS): visit all neighbors before going to any deeper neighbors. Can be used to find shortest path. Uses a queue.
+  - References: Cracking the Coding Interview, Ch. 4
+- [Tries](https://yangshun.github.io/tech-interview-handbook/algorithms/trie/)
+  - A type of tree, can appear in string search and prefix search problems
 
 ## Learn strategies for solving difficult algorithmic problems
 
