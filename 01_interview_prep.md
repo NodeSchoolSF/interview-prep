@@ -4,7 +4,8 @@ A plan of attack to prepare for the interview:
 
 - Work through good interview prep resources
 - Learn essential data structures and algorithms
-- Do problems, practice whiteboarding, and think out loud
+- Solve problems
+- Practice whiteboarding
 - Do your research on companies
 - Prep for behavioral questions & questions to ask interviewers
 - Have a good side project
@@ -56,17 +57,22 @@ Data structures:
   - A type of tree, can appear in string search and prefix search problems. Improves efficiency of searching for a length-k string among n strings from O(n) to O(k).
   - [Leetcode questions](https://yangshun.github.io/tech-interview-handbook/algorithms/trie/)
 
-## Do problems, practice whiteboarding, and think out loud
+## Solve problems
 
-If you expect your interview to have algorithms questions, the best way to prepare for them is to solve a lot of problems. Leetcode is a great place to find real problems that people get in tech interviews. As you solve problems, you'll find common patterns for solving problems [[1]](https://medium.com/@yashgirdhar/11-companies-55-interviews-9-offers-including-google-and-amazon-heres-what-i-have-to-share-293852c1c98f). Take notes on these patterns! It'll help you re-apply them to new problems.
+If you expect your interview to have algorithms questions, the best way to prepare for them is to solve a lot of problems. Leetcode is a great place to find real problems that people get in tech interviews. When working on a problem, try to:
 
-When working on a problem, try to:
-
+- Think out loud, like you would in an interview
 - Ask clarifying questions early before diving into the code
 - Try a few concrete examples
 - Describe a naive, brute force solution first. You may not necessarily implement it, though - the interviewer may ask you for a more efficient solution. [[1]](https://medium.com/@yashgirdhar/11-companies-55-interviews-9-offers-including-google-and-amazon-heres-what-i-have-to-share-293852c1c98f) [[2]](https://yangshun.github.io/tech-interview-handbook/during-coding-interview)
 - When you're done, carefully review your solution. Look it over line-by-line, and test it with example inputs. [[1]](https://yangshun.github.io/tech-interview-handbook/during-coding-interview#after-coding)
-- [Tips from Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/algorithms/algorithms-introduction)
+- [Other tips from Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/algorithms/algorithms-introduction)
+
+As you solve problems, you'll find common problem-solving patterns [[1]](https://medium.com/@yashgirdhar/11-companies-55-interviews-9-offers-including-google-and-amazon-heres-what-i-have-to-share-293852c1c98f). Take notes on these patterns! It'll help you re-apply them to new problems. After you solve a problem, read the solution carefully and make sure you fully understand it.
+
+Doing a lot of problems will also help you get fast at [common coding patterns](./01a_common_coding_patterns). Make sure you know how to do these quickly and without errors in your preferred language.
+
+## Practice whiteboarding
 
 Whiteboarding is nervewracking! For technical problems, interviewers generally like to see a candidate explain their thought process as they're solving a problem. I know this can be really hard; I struggle with this part. It's useful to practice this upfront! Practicing whiteboarding with a friend is highly recommended in order to get you more comfortable and used to thinking out loud [[1]](https://blog.usejournal.com/i-interviewed-at-six-top-companies-in-silicon-valley-in-six-days-and-stumbled-into-six-job-offers-fe9cc7bbc996). 
 
