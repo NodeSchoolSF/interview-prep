@@ -97,7 +97,6 @@ for item in array:
 
 `TODO`
 
-
 **Using an array as a stack**
 
 Javascript:
