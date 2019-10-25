@@ -7,7 +7,6 @@ See https://leetcode.com/problems/coin-change/solution/
 */
 
 // Naive version (slow for cents=221)
-
 function minCoins(cents) {
   if (cents <= 0) {
     return 0;
@@ -33,7 +32,13 @@ function minCoins(cents) {
   return minValue;
 }
 
+// Using top-down dynamic programming (recursion with memoization)
+//
+// Runtime: O(numcoins * numcents)
+// Each of memo[i] to memo[numcents+1] will only be calculated once.
+// When memo[i] is calculated, it will take numcoins operations.
 function minCoins(cents) {
+  // memo[i] contains min coins needed to make value i
   const memo = [0];
 
   function minCoinsHelper(cents) {

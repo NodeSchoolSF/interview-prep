@@ -30,7 +30,11 @@ def min_coins(cents):
     return min_value
 
 
-# Memoized version using recursion with memoization
+# Using top-down dynamic programming (recursion with memoization)
+#
+# Runtime: O(numcoins * numcents)
+# Each of memo[i] to memo[numcents+1] will only be calculated once.
+# When memo[i] is calculated, it will take numcoins operations.
 def min_coins(cents):
     # memo[i] contains min coins needed to make value i
     memo = [None] * (cents + 1)
