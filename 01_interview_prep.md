@@ -3,8 +3,8 @@
 A plan of attack to prepare for the interview:
 
 - Work through good interview prep resources
-- Learn strategies for solving difficult algorithmic problems
-- Practice whiteboarding and thinking out loud
+- Learn essential data structures and algorithms
+- Do problems, practice whiteboarding, and think out loud
 - Do your research on companies
 - Prep for behavioral questions & questions to ask interviewers
 - Have a good side project
@@ -16,8 +16,8 @@ Here are more details on each item:
 Find good resources to work through. There's a lot of good material out there so don't limit yourself to these, but some good ones I've used are:
 
 - **Cracking the Coding Interview** ($35) - a book that covers CS concepts well, along with problems and solutions with explanations.
-- **Elements of Programming Interviews in Python** ($36, Java and C++ also available)
 - **Leetcode** ($0 to $35/mo) - a site with a huge number of real interview problems from software companies, which you need to solve with efficient solutions. There's a guide on what problems to work through in [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/best-practice-questions/).
+- **Elements of Programming Interviews in Python** ($36, Java and C++ also available)
 - [**Tech Interview Handbook**](https://yangshun.github.io/tech-interview-handbook) (free) - a comprehensive guide to the technical interview
 
 ## Learn essential data structures and algorithms
@@ -56,23 +56,22 @@ Data structures:
   - A type of tree, can appear in string search and prefix search problems. Improves efficiency of searching for a length-k string among n strings from O(n) to O(k).
   - [Leetcode questions](https://yangshun.github.io/tech-interview-handbook/algorithms/trie/)
 
-## Learn strategies for solving difficult algorithmic problems
+## Do problems, practice whiteboarding, and think out loud
+
+If you expect your interview to have algorithms questions, the best way to prepare for them is to solve a lot of problems. Leetcode is a great place to find real problems that people get in tech interviews. As you solve problems, you'll find common patterns for solving problems [[1]](https://medium.com/@yashgirdhar/11-companies-55-interviews-9-offers-including-google-and-amazon-heres-what-i-have-to-share-293852c1c98f). Take notes on these patterns! It'll help you re-apply them to new problems.
+
+When working on a problem, try to:
 
 - Ask clarifying questions early before diving into the code
 - Try a few concrete examples
-- Always describe a naive, brute force solution first. You may not necessarily implement it, though - the interviewer may ask you for a more efficient solution. [[1]](https://medium.com/@yashgirdhar/11-companies-55-interviews-9-offers-including-google-and-amazon-heres-what-i-have-to-share-293852c1c98f) [[2]](https://yangshun.github.io/tech-interview-handbook/during-coding-interview)
-- When you solve a new problem, keep notes on things you learned [[1]](https://medium.com/@yashgirdhar/11-companies-55-interviews-9-offers-including-google-and-amazon-heres-what-i-have-to-share-293852c1c98f)
-- Find common patterns for solving problems [[1]](https://medium.com/@yashgirdhar/11-companies-55-interviews-9-offers-including-google-and-amazon-heres-what-i-have-to-share-293852c1c98f)
+- Describe a naive, brute force solution first. You may not necessarily implement it, though - the interviewer may ask you for a more efficient solution. [[1]](https://medium.com/@yashgirdhar/11-companies-55-interviews-9-offers-including-google-and-amazon-heres-what-i-have-to-share-293852c1c98f) [[2]](https://yangshun.github.io/tech-interview-handbook/during-coding-interview)
 - When you're done, carefully review your solution. Look it over line-by-line, and test it with example inputs. [[1]](https://yangshun.github.io/tech-interview-handbook/during-coding-interview#after-coding)
 - [Tips from Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/algorithms/algorithms-introduction)
 
-## Practice whiteboarding and thinking out loud
-
-Whiteboarding is nervewracking! Practicing whiteboarding with a friend is essential to getting more comfortable and to get you used to thinking out loud. [[1]](https://blog.usejournal.com/i-interviewed-at-six-top-companies-in-silicon-valley-in-six-days-and-stumbled-into-six-job-offers-fe9cc7bbc996)
-
-For technical problems, interviewers generally like to see a candidate explain their thought process as they're solving a problem. I know this can be really hard and I'm not great at it. It's useful to practice this upfront!
+Whiteboarding is nervewracking! For technical problems, interviewers generally like to see a candidate explain their thought process as they're solving a problem. I know this can be really hard; I struggle with this part. It's useful to practice this upfront! Practicing whiteboarding with a friend is highly recommended in order to get you more comfortable and used to thinking out loud [[1]](https://blog.usejournal.com/i-interviewed-at-six-top-companies-in-silicon-valley-in-six-days-and-stumbled-into-six-job-offers-fe9cc7bbc996). 
 
 [https://interviewing.io](https://interviewing.io/) is a site where you can practice realistic algorithmic interviews with engineers for free. `TODO`
+
 
 ## Do your research on companies
 
