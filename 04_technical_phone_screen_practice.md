@@ -1,5 +1,9 @@
 # Technical phone screen practice
 
+First, watch https://www.youtube.com/watch?v=HWW-jA6YjHk
+
+Tip: code in a problem.js file, and run `node problem.js` to evaluate it.
+
 ## Warm-up question set
 
 **1. Write a function `hasDuplicates(str)` which returns true if input string has duplicate characters; returns false otherwise.**

@@ -21,6 +21,8 @@ You may be asked to explain technical concepts like "what is the event loop in j
 
 Many companies will now do a remote coding challenge where they give you a question, and you code it up in a collaborative editor like [CoderPad](https://coderpad.io/) (which can run your code) or [CodePen](https://codepen.io) (for front-end stuff). You'll ideally be able to explain your thought process as you're coding.
 
+Here's a recording of a real technical phone screen which shows how the process works and how a candidate might think out loud (first 9 minutes): https://www.youtube.com/watch?v=HWW-jA6YjHk
+
 Possible examples of questions you might see:
 
 - `TODO`
