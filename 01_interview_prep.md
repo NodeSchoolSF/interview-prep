@@ -53,7 +53,8 @@ Data structures:
   - Breadth-first search (BFS): visit all neighbors before going to any deeper neighbors. Can be used to find shortest path. Uses a queue.
   - References: Cracking the Coding Interview, Ch. 4
 - [Tries](https://yangshun.github.io/tech-interview-handbook/algorithms/trie/)
-  - A type of tree, can appear in string search and prefix search problems
+  - A type of tree, can appear in string search and prefix search problems. Improves efficiency of searching for a length-k string among n strings from O(n) to O(k).
+  - [Leetcode questions](https://yangshun.github.io/tech-interview-handbook/algorithms/trie/)
 
 ## Learn strategies for solving difficult algorithmic problems
 
