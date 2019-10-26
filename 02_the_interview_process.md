@@ -21,7 +21,11 @@ You may be asked to explain technical concepts like "what is the event loop in j
 
 Many companies will now do a remote coding challenge where they give you a question, and you code it up in a collaborative editor like [CoderPad](https://coderpad.io/) (which can run your code) or [CodePen](https://codepen.io) (for front-end stuff). You'll ideally be able to explain your thought process as you're coding.
 
-Here's a recording of a real technical phone screen which shows how the process works and how a candidate might think out loud (first 9 minutes): https://www.youtube.com/watch?v=HWW-jA6YjHk
+Here are a few recordings of realistic technical phone screens which shows how the process works and how candidates think out loud:
+
+* [Missing item list difference with an Airbnb engineer](https://www.youtube.com/watch?v=cdCeU8DJvPM) - very good candidate who communicates clearly
+* [Coin change problem with a Google engineer](https://www.youtube.com/watch?v=HWW-jA6YjHk) - first 9 minutes are useful for seeing how candidate solves the naive version of the problem cleanly, and talks about big-O time complexity
+
 
 Possible examples of questions you might see:
 
