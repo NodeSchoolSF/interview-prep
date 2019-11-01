@@ -1,6 +1,6 @@
 # Technical phone screen practice
 
-First, watch https://www.youtube.com/watch?v=HWW-jA6YjHk
+First, watch either [coin change problem](https://www.youtube.com/watch?v=HWW-jA6YjHk) (first 9 minutes), or [missing list item](https://www.youtube.com/watch?v=cdCeU8DJvPM).
 
 Tip: code in a problem.js file, and run `node problem.js` to evaluate it.
 
@@ -65,3 +65,14 @@ console.log(reverseArray([1]));
 console.log(reverseArray([1, 2, 3, 4]));  // Even
 console.log(reverseArray([1, 2, 3, 4, 5]));  // Odd
 ```
+
+## Questions
+
+* Coin change problem
+  * Part 1: with coins [25, 10, 5, 1]
+  * Part 2: with coins [25, 10, 1]
+  * Mock interview: https://www.youtube.com/watch?v=HWW-jA6YjHk
+  * Leetcode: https://leetcode.com/problems/coin-change
+* Two sum
+  * Mock interview: https://www.youtube.com/watch?v=wBXZD436JAg
+  * Leetcode: https://leetcode.com/problems/two-sum/

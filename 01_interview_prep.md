@@ -36,6 +36,8 @@ Data structures:
 - Arrays and Strings
   - Leetcode questions: [arrays](https://yangshun.github.io/tech-interview-handbook/algorithms/array), [strings](https://yangshun.github.io/tech-interview-handbook/algorithms/string)
   - References: Cracking the Coding Interview, Ch. 1
+- Hash tables
+  - Big O: O(1) lookup, O(1) insert amortized
 - Linked lists
   - `class ListNode { value: any, next: ListNode | null, prev: ListNode | null }`
   - Concepts: know how to implement a Node class, singly vs doubly linked, deletion, "runner" technique of having a regular and a 2x faster iterator
@@ -88,10 +90,11 @@ Most companies want to hire people who care about the mission, and they'll usual
 
 There are a lot of ways to find interesting startups to apply to, but here are a few I've used before:
 
-- [https://angel.co/](https://angel.co/)
-- [https://www.ycombinator.com/topcompanies/](https://www.ycombinator.com/topcompanies/)
-- [https://breakoutlist.com/all/](https://breakoutlist.com/all/)
-- [https://hired.com/](https://hired.com/)
+- [Angel.co](https://angel.co/)
+- [YC's top companies](https://www.ycombinator.com/topcompanies/)
+- [YC "Who's hiring?" lists](https://news.ycombinator.com/item?id=21419536) (example for Nov 2019)
+- [Breakout list](https://breakoutlist.com/all/)
+- [Hired](https://hired.com/)
 
 ## Prep for behavioral questions & questions to ask interviewers
 
