@@ -15,11 +15,11 @@ In each class session, I'll talk for about an hour on topics like CS theory, tes
 
 * [**How to effectively interview prep**](s1_01_interview_prep.md) [20 min] - recommended prep resources, strategies for solving difficult problems, thinking out loud, doing your research, behavioral questions, and side projects.
 * [**The interview process**](s1_02_the_interview_process.md) [20 min] - the different stages of an interview process, including the technical phone screen, take-home challenges, and the onsite.
-* [**CS fundamentals**](s1_03_cs_fundamentals_part_1) [60+ min]: Big O notation (runtime and space). Basic data structures like strings, arrays, stacks, queues, sets, and hash tables (implement one of them, talk about when you would use each one). Solve an example problem with each topic.
-* [**Technical phone screen practice**](s1_04_technical_phone_screen_practice) [90 min]: Folks will group into pairs and each solve a different problem, taking turns being interviewer and interviewee. I'll review the answers, showing how I would code it up on a TV.
+* [**CS fundamentals**](s1_03_cs_fundamentals_part_1.md) [60+ min]: Big O notation (runtime and space). Basic data structures like strings, arrays, stacks, queues, sets, and hash tables (implement one of them, talk about when you would use each one). Solve an example problem with each topic.
+* [**Technical phone screen practice**](s1_04_technical_phone_screen_practice.md) [90 min]: Folks will group into pairs and each solve a different problem, taking turns being interviewer and interviewee. I'll review the answers, showing how I would code it up on a TV.
 
 ## Session 2 — Testing, CS Fundamentals, & Whiteboarding Practice
 
 * **Testing** [30 min]: how to unit test a typical javascript/node function that could show up in an interview. This can also cover more real-world node app testing, with mocking. I'll ask folks to unit test another example function.
 * **CS Fundamentals** [60 min]: Recursion. Trees and tree traversal, graphs and graph search (depth-first, breadth-first).
-* **Whiteboarding practice** [90 min]: Folks will group into pairs and each solve a different problem, taking turns being interviewer and interviewee. Afterward, I'll show how I would approach whiteboarding the answer.
+* [**Whiteboarding practice**](s2_03_whiteboarding_practice.md) [90 min]: Folks will group into pairs and each solve a different problem, taking turns being interviewer and interviewee. Afterward, I'll show how I would approach whiteboarding the answer.
