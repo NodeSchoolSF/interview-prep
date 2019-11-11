@@ -13,8 +13,8 @@ In each class session, I'll talk for about an hour on topics like CS theory, tes
 
 ## Session 1 — Overview of the Interview Process, CS Fundamentals, & Technical Phone Screen Practice
 
-* [**How to effectively interview prep**](01_interview_prep.md) [20 min] - recommended prep resources, strategies for solving difficult problems, thinking out loud, doing your research, behavioral questions, and side projects.
-* [**The interview process**](02_the_interview_process.md) [20 min] - the different stages of an interview process, including the technical phone screen, take-home challenges, and the onsite.
+* [**How to effectively interview prep**](s1_01_interview_prep.md) [20 min] - recommended prep resources, strategies for solving difficult problems, thinking out loud, doing your research, behavioral questions, and side projects.
+* [**The interview process**](s1_02_the_interview_process.md) [20 min] - the different stages of an interview process, including the technical phone screen, take-home challenges, and the onsite.
 * **CS fundamentals** [60+ min]: Big O notation (runtime and space). Basic data structures like strings, arrays, stacks, queues, sets, and hash tables (implement one of them, talk about when you would use each one). Solve an example problem with each topic.
 * **Technical phone screen practice** [90 min]: Folks will group into pairs, and each reads the question and solution to one of two different technical screening questions. Then, they take turns being interviewer and interviewee, with the interviewee trying to solve it by coding up a solution on their computer while the other person observes with the solution in hand. I'll review the answers, showing how I would code it up on a TV.
 ⚠️Tentative format, may be adjusted.

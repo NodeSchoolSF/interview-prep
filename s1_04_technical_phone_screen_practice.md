@@ -77,6 +77,7 @@ console.log(reverseArray([1, 2, 3, 4, 5]));  // Odd
   * Part 2: with coins [25, 10, 1]
   * Mock interview: https://www.youtube.com/watch?v=HWW-jA6YjHk
   * Leetcode: https://leetcode.com/problems/coin-change
+  * Solutions: [javascript](s1_04a_coin_change_problem.js), [python](s1_04a_coin_change_problem.py)
 * Two sum
   * Mock interview: https://www.youtube.com/watch?v=wBXZD436JAg
   * Leetcode: https://leetcode.com/problems/two-sum/
