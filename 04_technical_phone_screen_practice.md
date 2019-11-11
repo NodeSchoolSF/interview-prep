@@ -66,6 +66,10 @@ console.log(reverseArray([1, 2, 3, 4]));  // Even
 console.log(reverseArray([1, 2, 3, 4, 5]));  // Odd
 ```
 
+**3. Write a function `sharedChars(str1, str2)` which returns a list of characters that are in both str1 and str2.**
+
+`TODO`
+
 ## Questions
 
 * Coin change problem
