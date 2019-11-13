@@ -42,6 +42,7 @@ Data structures:
   - `class ListNode { value: any, next: ListNode | null, prev: ListNode | null }`
   - Concepts: know how to implement a Node class, singly vs doubly linked, deletion, "runner" technique of having a regular and a 2x faster iterator
   - [Leetcode questions](https://yangshun.github.io/tech-interview-handbook/algorithms/linked-list)
+    - [Merge two sorted lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - Stacks and Queues
   - References: Cracking the Coding Interview, Ch. 3
   - Concepts: know how to write a Stack class using arrays or linked lists, implementing a Queue with a linked list, using stacks to implement recursive algorithms iteratively
