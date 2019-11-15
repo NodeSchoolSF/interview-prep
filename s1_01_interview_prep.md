@@ -4,6 +4,7 @@ A plan of attack to prepare for the interview:
 
 - Work through good interview prep resources
 - Learn essential data structures and algorithms
+- Know your language in and out
 - Solve problems
 - Practice whiteboarding
 - Do your research on companies
@@ -16,20 +17,22 @@ Here are more details on each item:
 
 Find good resources to work through. There's a lot of good material out there so don't limit yourself to these, but some good ones I've used are:
 
+- **Leetcode** ($0 to $35/mo) - a site with a huge number of real interview problems from software companies, which you submit against a suite of test cases and which need to be solved with efficient solutions. There's a guide on what problems to work through in [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/best-practice-questions/).
 - **Cracking the Coding Interview** ($35) - a book that covers CS concepts well, along with problems and solutions with explanations.
-- **Leetcode** ($0 to $35/mo) - a site with a huge number of real interview problems from software companies, which you need to solve with efficient solutions. There's a guide on what problems to work through in [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/best-practice-questions/).
-- **Elements of Programming Interviews in Python** ($36, Java and C++ also available)
-- [**Tech Interview Handbook**](https://yangshun.github.io/tech-interview-handbook) (free) - a comprehensive guide to the technical interview
+- **Elements of Programming Interviews in Python** ($36, Java and C++ also available) - more advanced than Cracking the Coding Interview.
+- [**Tech Interview Handbook**](https://yangshun.github.io/tech-interview-handbook) (free) - a comprehensive guide to the technical interview.
 
 ## Learn essential data structures and algorithms
 
-Algorithms:
+**Note:** The degree to which companies test for algorithms knowledge varies widely. If possible, look into what kinds of questions the company tends to ask (Glassdoor or Leetcode are places to start, but worth searching online for more resources). Generally speaking, startups are more likely to ask questions more related to everyday work, whereas larger companies may be more likely to ask algorithms questions.
+
+Algorithms and techniques:
 
 - Big O analysis
   - Concepts: Time and space, amortization, log(n) runtimes (e.g. binary search), multiple inputs (e.g. two arrays, array of strings of different lengths), 
   - [Valid Anagram](https://leetcode.com/problems/valid-anagram/) is a typical example of an array problem with obvious O(n^2) solution, but a better O(n) solution.
   - References: Cracking the Coding Interview, Ch. IV
-
+- Dynamic programming
 
 Data structures:
 
@@ -60,6 +63,7 @@ Data structures:
   - A type of tree, can appear in string search and prefix search problems. Improves efficiency of searching for a length-k string among n strings from O(n) to O(k).
   - [Leetcode questions](https://yangshun.github.io/tech-interview-handbook/algorithms/trie/)
 
+
 ## Solve problems
 
 If you expect your interview to have algorithms questions, the best way to prepare for them is to solve a lot of problems. Leetcode is a great place to find real problems that people get in tech interviews. When working on a problem, try to:
@@ -76,6 +80,18 @@ As you solve problems, you'll find common problem-solving patterns [[1]](https:/
 
 Doing a lot of problems will also help you get fast at [common coding patterns](./s1_01a_common_coding_patterns). Make sure you know how to do these quickly and without errors in your preferred language.
 
+
+## Know your language in and out
+
+Important javascript concepts:
+
+* Event loop
+  * [The Javascript Event Loop](https://flaviocopes.com/javascript-event-loop/)
+  * [Concurrency model and the event loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
+* `this`
+* Prototypal inheritance
+
+
 ## Practice whiteboarding
 
 Whiteboarding is nervewracking! For technical problems, interviewers generally like to see a candidate explain their thought process as they're solving a problem. I know this can be really hard; I struggle with this part. It's useful to practice this upfront! Practicing whiteboarding with a friend is highly recommended in order to get you more comfortable and used to thinking out loud [[1]](https://blog.usejournal.com/i-interviewed-at-six-top-companies-in-silicon-valley-in-six-days-and-stumbled-into-six-job-offers-fe9cc7bbc996). 
@@ -84,8 +100,6 @@ Whiteboarding is nervewracking! For technical problems, interviewers generally l
 
 
 ## Do your research on companies
-
-Every company has different interview processes. If possible, look into what kinds of questions the company tends to ask (Glassdoor or Leetcode are places to start, but there are other resources online).
 
 Most companies want to hire people who care about the mission, and they'll usually ask why you're interested in working there. It's important to do some research on a company you're applying to and to have a good answer for that question, and also to have specific questions to ask about the company.
 
@@ -96,6 +110,7 @@ There are a lot of ways to find interesting startups to apply to, but here are a
 - [YC "Who's hiring?" lists](https://news.ycombinator.com/item?id=21419536) (example for Nov 2019)
 - [Breakout list](https://breakoutlist.com/all/)
 - [Hired](https://hired.com/)
+
 
 ## Prep for behavioral questions & questions to ask interviewers
 
@@ -114,6 +129,7 @@ Common behavioral questions:
 `TODO`
 
 - [List of questions to ask](https://yangshun.github.io/tech-interview-handbook/questions-to-ask)
+
 
 ## Have a good side project
 
@@ -143,6 +159,7 @@ Some tips for your project:
 - Write tests if possible
 
 A side project is always easier if it's about something you care about. What are your interests? For me, I like music a lot, so I built a map that displays nearby concerts. You can also build a tool to solve a pain point you have, something you've encountered in everyday life — like a chrome extension that generates Github release notes.
+
 
 ## References
 
