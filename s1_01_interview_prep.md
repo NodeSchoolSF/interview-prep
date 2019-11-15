@@ -4,9 +4,9 @@ A plan of attack to prepare for the interview:
 
 - Work through good interview prep resources
 - Learn essential data structures and algorithms
-- Know your language in and out
 - Solve problems
 - Practice whiteboarding
+- Know your language in and out
 - Do your research on companies
 - Prep for behavioral questions & questions to ask interviewers
 - Have a good side project
@@ -88,7 +88,10 @@ Important javascript concepts:
 * Event loop
   * [The Javascript Event Loop](https://flaviocopes.com/javascript-event-loop/)
   * [Concurrency model and the event loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
-* `this`
+* `this` - refers to the object which is executing the current function
+  * [JavaScript — all about “this” keyword](https://codeburst.io/all-about-this-and-new-keywords-in-javascript-38039f71780c)
+  * [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+  * Related: `.bind()`, `.call()`, and `.apply()`
 * Prototypal inheritance
 
 
