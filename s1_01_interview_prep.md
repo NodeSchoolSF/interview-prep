@@ -88,6 +88,8 @@ Important javascript concepts:
 * Event loop
   * [The Javascript Event Loop](https://flaviocopes.com/javascript-event-loop/)
   * [Concurrency model and the event loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
+* Closures
+  * [What is a closure?](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36)
 * `this` - refers to the object which is executing the current function
   * [JavaScript — all about “this” keyword](https://codeburst.io/all-about-this-and-new-keywords-in-javascript-38039f71780c)
   * [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
