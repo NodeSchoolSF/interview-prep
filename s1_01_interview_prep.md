@@ -69,11 +69,13 @@ Data structures:
 If you expect your interview to have algorithms questions, the best way to prepare for them is to solve a lot of problems. Leetcode is a great place to find real problems that people get in tech interviews. When working on a problem, try to:
 
 - Think out loud, like you would in an interview
-- Ask clarifying questions early before diving into the code
+- Ask clarifying questions early before diving into the code.
+  - One common clarifying question is what you should optimize for - generally, time or space.
+- Outline your approach before diving in
 - Try a few concrete examples
-- Describe a naive, brute force solution first (along with big-O runtime). You may not necessarily implement it, though - the interviewer may ask you for a more efficient solution. [[1]](https://medium.com/@yashgirdhar/11-companies-55-interviews-9-offers-including-google-and-amazon-heres-what-i-have-to-share-293852c1c98f) [[2]](https://yangshun.github.io/tech-interview-handbook/during-coding-interview)
-- When you're done, carefully review your solution. Look it over line-by-line, and test it with example inputs. [[1]](https://yangshun.github.io/tech-interview-handbook/during-coding-interview#after-coding)
-- Evaluate the runtime of your solution
+- If applicable, describe a naive, brute force solution first (along with big-O runtime). You may not necessarily implement it, though - the interviewer may ask you for a more efficient solution. [[1]](https://medium.com/@yashgirdhar/11-companies-55-interviews-9-offers-including-google-and-amazon-heres-what-i-have-to-share-293852c1c98f) [[2]](https://yangshun.github.io/tech-interview-handbook/during-coding-interview)
+- When you're done, carefully review your solution. Look it over line-by-line, and test it with example inputs. [[1]](https://yangshun.github.io/tech-interview-handbook/during-coding-interview#after-coding). It can be a bonus if you add good test cases without prompting.
+- Evaluate the runtime/space of your solution in big O
 - [Other tips from Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/algorithms/algorithms-introduction)
 
 As you solve problems, you'll find common problem-solving patterns [[1]](https://medium.com/@yashgirdhar/11-companies-55-interviews-9-offers-including-google-and-amazon-heres-what-i-have-to-share-293852c1c98f). Take notes on these patterns! It'll help you re-apply them to new problems. After you solve a problem, read the solution carefully and make sure you fully understand it (on Leetcode, there are often good solutions in the language of your choice in the "Discuss" tab).
