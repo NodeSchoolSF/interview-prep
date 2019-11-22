@@ -19,6 +19,7 @@ Find good resources to work through. There's a lot of good material out there so
 
 - **Leetcode** ($0 to $35/mo) - a site with a huge number of real interview problems from software companies, which you submit against a suite of test cases and which need to be solved with efficient solutions. There's a guide on what problems to work through in [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/best-practice-questions/).
 - **Cracking the Coding Interview** ($35) - a book that covers CS concepts well, along with problems and solutions with explanations.
+- **Interview Cake** ($0 to $249) - problems with high-quality explanations, and other reference material.
 - **Elements of Programming Interviews in Python** ($36, Java and C++ also available) - more advanced than Cracking the Coding Interview.
 - [**Tech Interview Handbook**](https://yangshun.github.io/tech-interview-handbook) (free) - a comprehensive guide to the technical interview.
 
