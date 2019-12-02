@@ -54,6 +54,33 @@ for rowIndex in range(len(array)):
         print(row[colIndex])
 ```
 
+**Initialize an array of fixed size**
+
+Javascript:
+
+Not really needed, generally speaking - arrays can be accessed at any index.
+
+Python:
+
+```python
+size = 20
+array = [None] * size
+```
+
+**Initialize a 2D array**
+
+Javascript:
+
+`TODO`
+
+Python:
+
+```python
+num_rows = 10
+num_cols = 20
+array = [[None] * num_cols for _ in num_rows]
+```
+
 
 **Track the count of an item using a hash**
 

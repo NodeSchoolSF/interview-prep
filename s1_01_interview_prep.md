@@ -1,6 +1,8 @@
 # How to effectively interview prep
 
-A plan of attack to prepare for the interview:
+**Important note:** The degree to which companies test for algorithms knowledge varies widely. If possible, look into what kinds of questions the company tends to ask (Glassdoor or Leetcode are places to start, but worth searching online for more resources). Generally speaking, startups are more likely to ask questions more related to everyday work, whereas larger companies are more likely to ask CS/algorithms questions. **[Check out this guide for some tips on startup-specific interview prep](s1_01a_startup_interview_prep.md)**.
+
+This guide is focused on a typical CS fundamentals based interview. A plan of attack to prepare:
 
 - Work through good interview prep resources
 - Learn essential data structures and algorithms
@@ -10,8 +12,6 @@ A plan of attack to prepare for the interview:
 - Do your research on companies
 - Prep for behavioral questions & questions to ask interviewers
 - Have a good side project
-
-Here are more details on each item:
 
 ## Work through good interview prep resources
 
@@ -24,8 +24,6 @@ Find good resources to work through. There's a lot of good material out there so
 - [**Tech Interview Handbook**](https://yangshun.github.io/tech-interview-handbook) (free) - a comprehensive guide to the technical interview.
 
 ## Learn essential data structures and algorithms
-
-**Note:** The degree to which companies test for algorithms knowledge varies widely. If possible, look into what kinds of questions the company tends to ask (Glassdoor or Leetcode are places to start, but worth searching online for more resources). Generally speaking, startups are more likely to ask questions more related to everyday work, whereas larger companies may be more likely to ask algorithms questions.
 
 Algorithms and techniques:
 
