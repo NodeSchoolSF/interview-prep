@@ -12,6 +12,7 @@ When you're listening to someone's solution, keep the following in mind:
 
 ## Warm-up question set
 
+
 **1. Write a function `hasDuplicates(str)` which returns true if input string has duplicate characters; returns false otherwise.**
 
 Solution:
@@ -78,6 +79,8 @@ console.log(reverseArray([1, 2, 3, 4, 5]));  // Odd
 
 ## Questions
 
+* Contains duplicate
+  * https://leetcode.com/problems/contains-duplicate
 * Coin change problem
   * Part 1: with coins [25, 10, 5, 1]
   * Part 2: with coins [25, 10, 1]

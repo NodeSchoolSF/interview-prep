@@ -17,11 +17,11 @@ This guide is focused on a typical CS fundamentals based interview. A plan of at
 
 Find good resources to work through. There's a lot of good material out there so don't limit yourself to these, but some good ones I've used are:
 
-- **Leetcode** ($0 to $35/mo) - a site with a huge number of real interview problems from software companies, which you submit against a suite of test cases and which need to be solved with efficient solutions. There's a guide on what problems to work through in [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/best-practice-questions/).
-- **Cracking the Coding Interview** ($35) - a book that covers CS concepts well, along with problems and solutions with explanations.
-- **Interview Cake** ($0 to $249) - problems with high-quality explanations, and other reference material.
-- **Elements of Programming Interviews in Python** ($36, Java and C++ also available) - more advanced than Cracking the Coding Interview.
-- [**Tech Interview Handbook**](https://yangshun.github.io/tech-interview-handbook) (free) - a comprehensive guide to the technical interview.
+- **Leetcode** ($0 to $35/mo) - a site with a huge number of real interview problems from software companies, which you submit against a suite of test cases and which need to be solved with efficient solutions. There's a guide on what problems to work through in [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/best-practice-questions/). Recommended.
+- **Cracking the Coding Interview** ($35) - a book that covers CS concepts well, along with problems and solutions with explanations. Recommended.
+- Elements of Programming Interviews in Python ($36, Java and C++ also available) - more advanced than Cracking the Coding Interview.
+- Interview Cake ($0 to $249) - problems with high-quality explanations, and other reference material.
+- [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook) (free) - a comprehensive guide to the technical interview.
 
 ## Learn essential data structures and algorithms
 
@@ -164,7 +164,7 @@ Some tips for your project:
 - Have a live demo. If it's a static site, you can host it on github pages for free (check out the `gh-pages` npm package). If it has a backend, there are options like Heroku, which has a free tier.
 - Write tests if possible
 
-A side project is always easier if it's about something you care about. What are your interests? For me, I like music a lot, so I built a map that displays nearby concerts. You can also build a tool to solve a pain point you have, something you've encountered in everyday life — like a chrome extension that generates Github release notes.
+A side project is always easier if it's about something you care about. What are your interests? For me, I like music a lot, so I built a map that displays nearby concerts on top of the Songkick API. You can also build a tool to solve a pain point you have, something you've encountered in everyday life — like a chrome extension that generates Github release notes.
 
 
 ## References
@@ -174,3 +174,7 @@ A side project is always easier if it's about something you care about. What are
 - [11 companies, 55 Interviews, 9 offers](https://medium.com/@yashgirdhar/11-companies-55-interviews-9-offers-including-google-and-amazon-heres-what-i-have-to-share-293852c1c98f) - `TODO`
 - [https://github.com/kdn251/interviews](https://github.com/kdn251/interviews) - overview of algorithms and data structures, prep resources, and problem solutions in Java
 - [https://github.com/yangshun/lago](https://github.com/yangshun/lago) - data structures and algorithms in JS
+
+## Next section
+
+[**Next: The interview process**](s1_02_the_interview_process.md)

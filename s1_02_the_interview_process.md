@@ -52,3 +52,6 @@ General advice:
 - **"Do you have any questions for me?"**  Interviewers will often leave time for you to ask them questions, and by the end of the day this will add up to a lot of time for your questions. These questions do matter — they can be used to assess what you're interested in (the tech stack? the mission?), and if you have an especially good question, an interviewer may take note of it. Be prepared to have at least some basic questions for each interviewer, and ideally have some tailored questions based on the product or company that demonstrate your interest in the mission.
 - **You can admit you don't know something.** If you don't know something knowledge-based (i.e. a programming language construct or technology), interviewers will be able to tell. It can be better to own up to it and say you don't know something upfront instead of struggling with something that you can't deduce on the spot. This doesn't necessarily mean you should give up, though, if it's a question you can figure out.
 
+## Next section
+
+[**Next: CS fundamentals**](s1_03_cs_fundamentals_part_1.md)
