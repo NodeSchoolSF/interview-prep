@@ -34,7 +34,7 @@ More difficult:
 * Coin change
   * Mock interview: https://www.youtube.com/watch?v=HWW-jA6YjHk
   * Leetcode: https://leetcode.com/problems/coin-change
-  * Solutions: [javascript](s1_04a_coin_change_problem.js), [python](s1_04a_coin_change_problem.py)
+  * Solutions: [javascript](solutions/coin_change.js), [python](coin_change.py)
 * Climbing stairs
   * https://leetcode.com/problems/climbing-stairs/
 
