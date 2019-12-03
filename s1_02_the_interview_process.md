@@ -53,4 +53,4 @@ General advice:
 
 ## Next section
 
-[**Next: CS fundamentals**](s1_03_cs_fundamentals_part_1.md)
+[**Next: CS fundamentals**](cs_fundamentals.md)

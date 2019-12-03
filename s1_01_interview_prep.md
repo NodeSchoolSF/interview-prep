@@ -25,7 +25,7 @@ Find good resources to work through. There's a lot of good material out there so
 
 ## Learn essential data structures and algorithms
 
-We'll cover this in more detail in [CS fundamentals](s1_03_cs_fundamentals_part_1.md).
+We'll cover this in more detail in [CS fundamentals](cs_fundamentals.md).
 
 ## Solve problems
 
