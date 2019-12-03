@@ -94,4 +94,4 @@ Data structures:
 
 ## Next section
 
-[**Next: Technical phone screen practice**](s1_04_technical_phone_screen_practice.md)
+[**Next: Technical phone screen practice**](technical_phone_screen_practice.md)

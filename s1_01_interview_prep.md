@@ -1,6 +1,6 @@
 # How to effectively interview prep
 
-**Important note:** The degree to which companies test for algorithms knowledge varies widely. If possible, look into what kinds of questions the company tends to ask (Glassdoor or Leetcode are places to start, but worth searching online for more resources). Generally speaking, startups are more likely to ask questions more related to everyday work, whereas larger companies are more likely to ask CS/algorithms questions. **[Check out this guide for some tips on startup-specific interview prep](s1_01a_startup_interview_prep.md)**.
+**Important note:** The degree to which companies test for algorithms knowledge varies widely. If possible, look into what kinds of questions the company tends to ask (Glassdoor or Leetcode are places to start, but worth searching online for more resources). Generally speaking, startups are more likely to ask questions more related to everyday work, whereas larger companies are more likely to ask CS/algorithms questions. **[Check out this guide for some tips on startup-specific interview prep](startup_interview_prep.md)**.
 
 This guide is focused on a typical CS fundamentals based interview. A plan of attack to prepare:
 
@@ -43,7 +43,7 @@ If you expect your interview to have algorithms questions, the best way to prepa
 
 As you solve problems, you'll find common problem-solving patterns [[1]](https://medium.com/@yashgirdhar/11-companies-55-interviews-9-offers-including-google-and-amazon-heres-what-i-have-to-share-293852c1c98f). Take notes on these patterns! It'll help you re-apply them to new problems. After you solve a problem, read the solution carefully and make sure you fully understand it (on Leetcode, there are often good solutions in the language of your choice in the "Discuss" tab).
 
-Doing a lot of problems will also help you get fast at [common coding patterns](./s1_01a_common_coding_patterns). Make sure you know how to do these quickly and without errors in your preferred language.
+Doing a lot of problems will also help you get fast at [common coding patterns](./common_programming_patterns.md). Make sure you know how to do these quickly and without errors in your preferred language.
 
 
 ## Know your language in and out
@@ -141,4 +141,4 @@ A side project is always easier if it's about something you care about. What are
 
 ## Next section
 
-[**Next: The interview process**](s1_02_the_interview_process.md)
+[**Next: The interview process**](the_interview_process.md)
