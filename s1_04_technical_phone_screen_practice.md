@@ -1,14 +1,17 @@
 # Technical phone screen practice
 
-To see how a real phone screen can play out, you can watch either [coin change problem](https://www.youtube.com/watch?v=HWW-jA6YjHk) (first 9 minutes), or [missing list item](https://www.youtube.com/watch?v=cdCeU8DJvPM).
+To see how a real phone screen can play out, you can watch a recording of someone solving [missing list item](https://www.youtube.com/watch?v=cdCeU8DJvPM) well.
 
 Tip: code in a problem.js file, and run `node problem.js` to evaluate it.
 
 When you're listening to someone's solution, keep the following in mind:
 
-* Did they ask clarifying questions?
-* Did they analyze the big-O runtime?
+* Did they ask clarifying questions before implementing?
+* Do they explain their thought process as they're working?
+* Is the solution efficient (in runtime)?
+* Ask them the big-O for runtime and space.
 * Do they come up with good test cases to try out?
+* Try running it. Are there bugs? Does it run and pass the Leetcode test cases?
 
 ## Questions
 
@@ -20,15 +23,20 @@ Warm-up:
   * https://leetcode.com/problems/reverse-string
 * Find common characters
   * https://leetcode.com/problems/find-common-characters
-* Coin change problem
-  * Part 1: with coins [25, 10, 5, 1]
-  * Part 2: with coins [25, 10, 1]
-  * Mock interview: https://www.youtube.com/watch?v=HWW-jA6YjHk
-  * Leetcode: https://leetcode.com/problems/coin-change
-  * Solutions: [javascript](s1_04a_coin_change_problem.js), [python](s1_04a_coin_change_problem.py)
+* Valid anagram
+  * https://leetcode.com/problems/valid-anagram/
 * Two sum
   * Mock interview: https://www.youtube.com/watch?v=wBXZD436JAg
   * Leetcode: https://leetcode.com/problems/two-sum/
+
+More difficult:
+
+* Coin change
+  * Mock interview: https://www.youtube.com/watch?v=HWW-jA6YjHk
+  * Leetcode: https://leetcode.com/problems/coin-change
+  * Solutions: [javascript](s1_04a_coin_change_problem.js), [python](s1_04a_coin_change_problem.py)
+* Climbing stairs
+  * https://leetcode.com/problems/climbing-stairs/
 
 
 

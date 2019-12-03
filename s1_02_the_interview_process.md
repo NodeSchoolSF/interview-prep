@@ -26,7 +26,6 @@ Here are a few recordings of realistic technical phone screens which shows how t
 * [Missing item list difference with an Airbnb engineer](https://www.youtube.com/watch?v=cdCeU8DJvPM) - very good candidate who communicates clearly
 * [Coin change problem with a Google engineer](https://www.youtube.com/watch?v=HWW-jA6YjHk) - first 9 minutes are useful for seeing how candidate solves the naive version of the problem cleanly, and talks about big-O time complexity
 
-
 Possible examples of questions you might see:
 
 - `TODO`

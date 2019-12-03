@@ -1,4 +1,4 @@
-# Common coding patterns
+# Common programming patterns
 
 These will come up often in programming questions.
 
@@ -203,3 +203,7 @@ Python:
 str = "abcdef"
 return str[::-1]
 ```
+
+**Depth first search helper function**
+
+`TODO`
