@@ -19,7 +19,6 @@ Find good resources to work through. There's a lot of good material out there so
 
 - [**Leetcode**](https://leetcode.com/) ($0 to $35/mo) - a site with a huge number of real interview problems from software companies, where you can submit your solutions to the "online judge" which runs it against a suite of test cases. There's a guide on what problems to work through in [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/best-practice-questions/). Recommended.
 - [**Cracking the Coding Interview**](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850) ($35) - a book that covers CS concepts well, along with problems and solutions with explanations. Recommended.
-- [Elements of Programming Interviews in Python](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949) ($36, Java and C++ also available) - more advanced than Cracking the Coding Interview.
 - [Interview Cake](https://www.interviewcake.com/) ($0 to $249) - problems with high-quality explanations, and other reference material.
 - [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook) (free) - a comprehensive guide to the technical interview.
 
@@ -48,7 +47,7 @@ Doing a lot of problems will also help you get fast at [common programming patte
 
 ## Know your language in and out
 
-Important javascript concepts:
+You'll want to use the language you're most comfortable with for interviews, and know it intimately. Here are some important javascript concepts:
 
 * Event loop
   * [The Javascript Event Loop](https://flaviocopes.com/javascript-event-loop/)
@@ -73,7 +72,7 @@ Whiteboarding is nervewracking! For technical problems, interviewers generally l
 
 Most companies want to hire people who care about the mission, and they'll usually ask why you're interested in working there. It's important to do some research on a company you're applying to and to have a good answer for that question, and also to have specific questions to ask about the company.
 
-There are a lot of ways to find interesting startups to apply to, but here are a few I've used before:
+If you're interested in working at a startup, here are a few ways to find them:
 
 - [Angel.co](https://angel.co/)
 - [YC's top companies](https://www.ycombinator.com/topcompanies/)
@@ -92,7 +91,7 @@ Common behavioral questions:
 - **Why are you interested in working at this company? `TODO`**
 - **Talk about a challenging project you worked on.** You'll want to be able to give a solid answer — and it really helps if you have either a recent work project or a side project that you can talk about in depth (see the "Have a good side project" section for more on this). The interviewer is trying to evaluate whether you can talk coherently about a complex topic, at both a high level and a technical level. Clear communication about technical work is extremely important - you'll need to talk to PMs, stakeholders, designers, and other engineers all the time at a startup.
 - **What are you looking for in your next position? `TODO`**
-- [Here's a list of common behavioral questions from Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/behavioral-questions/)
+- [Here's a list of more behavioral questions from Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/behavioral-questions/)
 
 **Questions to ask interviewers**: you'll also want to be prepared to have some questions for each interviewer (which can end up being a lot of questions at an onsite with 5 interviewers). The questions you ask can have an impact! Interviewers may use them to judge what your priorities are  and whether you're interested in the mission.
 
