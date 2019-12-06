@@ -19,11 +19,11 @@ function isAnagram(source, target) {
 }
 ```
 
-The big O runtime is O(n log n), because generally speaking, sorting algorithms can at best be O(n log n). The leetcode submission runtime is 100ms, faster than 34% of other JS solutions.
+The big O runtime is O(n log n), because sorting an array generally takes O(n log n) time (and we call it twice with `.sort()`). The leetcode submission runtime is 100ms, faster than 34% of other JS solutions.
 
 With the right insight - that two anagrams have the same character count - we can do better. We also rely on the fact that in a hash table, setting a value and retrieving a value are O(1) operations.
 
-```
+```js
 function isAnagram(source, target) {
   if (source.length !== target.length) {
     return false;
@@ -107,14 +107,14 @@ Essential:
     - [Maximum depth of binary tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
     - [Invert binary tree](https://leetcode.com/problems/invert-binary-tree/)
 - **Graphs**
-  - Adjacency list: `class Graph { nodes: GraphNode[] }; class GraphNode { value: any, neighbors: GraphNode[] }`
-  - Can represent simply using a hash table that maps nodes (keys) to neighbors (value array): `{ 0: [1, 2], 2: [3, 5], ... }`
-  - Intuition on what can be translated into a graph problem (e.g. a maze)
-  - Depth-first search (DFS): explore a branch fully before going to other neighbors. Simpler than BFS. Can be implemented recursively, or with a stack.
+  - **Depth-first search (DFS)**: explore a branch fully before going to other neighbors. Simpler than BFS. Can be implemented recursively, or with a stack.
     - [Number of islands](https://leetcode.com/problems/number-of-islands/)
     - [N-queens](https://leetcode.com/problems/n-queens/)
-  - Breadth-first search (BFS): visit all neighbors before going to any deeper neighbors. Can be used to find shortest path. Uses a queue.
+  - **Breadth-first search (BFS)**: visit all neighbors before going to any deeper neighbors. Can be used to find shortest path. Uses a queue.
     - [Binary tree level order traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+  - Can represent with adjacency list: `class Graph { nodes: GraphNode[] }; class GraphNode { value: any, neighbors: GraphNode[] }`
+  - Can represent simply using a hash table that maps nodes (keys) to neighbors (value array): `{ 0: [1, 2], 2: [3, 5], ... }`
+  - Have intuition on what can be translated into a graph problem (e.g. a maze)
   - References:
     - Cracking the Coding Interview, Ch. 4
     - [Tech interview handbook](https://yangshun.github.io/tech-interview-handbook/algorithms/graph)
@@ -151,7 +151,6 @@ Less common:
   - [Non-overlapping intervals](https://leetcode.com/problems/non-overlapping-intervals/)
 - Combining data structures
   - Sometimes, you can find an efficient implementation by combining existing data structures, or having multiple of the same data structure. A well-known example is to [combine a hashtable and linked list to build an LRU cache](https://leetcode.com/problems/lru-cache/).
-
 
 
 ## References
