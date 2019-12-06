@@ -44,7 +44,14 @@ function containsDuplicate(arr) {
 
 
 // Test cases
-assert(!containsDuplicate([]));
-assert(!containsDuplicate([1, 2, 3]));
-assert(containsDuplicate([1, 2, 3, 1]));
-assert(containsDuplicate([2, 2, 2, 2, 2]));
+const testCases = [
+  [],
+  [1, 2, 3],
+  [1, 2, 3, 1],
+  [2, 2, 2]
+];
+
+testCases.forEach((testCase) => {
+  console.log(testCase, containsDuplicate(testCase));
+});
+

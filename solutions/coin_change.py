@@ -1,9 +1,10 @@
 """
-Watch first 9 minutes of:
-https://www.youtube.com/watch?v=HWW-jA6YjHk
+To run: python3 coin_change.js
 
-See https://leetcode.com/problems/coin-change/solution/
-"dynamic programming - top down" for full explanation.
+https://leetcode.com/problems/coin-change/
+
+See "dynamic programming - top down" section here for full explanation:
+https://leetcode.com/problems/coin-change/solution
 """
 
 # Naive version (slow for cents=221)

@@ -1,10 +1,9 @@
-/*
-Watch first 9 minutes of:
-https://www.youtube.com/watch?v=HWW-jA6YjHk
-
-See https://leetcode.com/problems/coin-change/solution/
-"dynamic programming - top down" for full explanation.
-*/
+// To run: node coin_change.js
+//
+// https://leetcode.com/problems/coin-change/
+//
+// See "dynamic programming - top down" section here for full explanation:
+// https://leetcode.com/problems/coin-change/solution
 
 // Naive version (slow for cents=221)
 function minCoins(cents) {
