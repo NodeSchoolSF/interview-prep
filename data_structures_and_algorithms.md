@@ -155,11 +155,57 @@ Less common:
 
 ## Practice!
 
-
 **Greedy algorithms**
 
 Let's go through [Best time to buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/).
 
+There's a brute force O(n^2) solution where you compare every 2 elements and record the price difference. How can we do better?
+
+Well, let's take a look at each time we see a new minimum stock value. Going forward, we no longer need to consider any values to the left of this new minimum - because any price difference to the right will strictly be better starting from this new minimum. This is a trademark of greedy algorithms - we don't need to "backtrack" and we can discard parts of the input. We should keep track of what the biggest price difference had been, though, in case it was higher.
+
+Let's illustrate this with some test cases:
+
+```js
+[5, 20, 4, 10, 3, 10]  // Biggest diff at beginning
+[5, 20, 4, 10, 3, 20]  // Biggest diff at end
+```
+
+At this point, we can also ask the interviewer more details about the question:
+
+* Will the price array have negative numbers? (let's assume no)
+* Should we report a negative profit if prices keep descending? (let's assume no)
+
+Okay, now let's code it up:
+
+```js
+function maxProfit(prices) {
+  let maxProfit = 0;
+  let minPrice = prices[0];
+
+  prices.forEach((price) => {
+    if (price < minPrice) {
+      // Set new minimum
+      minPrice = price;
+    } else {
+      // Track whether profit increases against current minimum
+      maxProfit = Math.max(maxProfit, price - minPrice);
+    }
+  });
+
+  return maxProfit;
+}
+```
+
+Let's also think about some more edge cases to test:
+
+```js
+[]
+[5, 4, 3, 2, 1]
+```
+
+You can run `node solutions/best_time_to_buy_and_sell_stock.js` to see how I set up testing this function out locally. We can also now submit the solution on Leetcode.
+
+Note that a greedy approach doesn't always work. If we change the problem slightly and ask for the [Longest increasing subsequence](https://leetcode.com/problems/longest-increasing-subsequence/), we can no longer discard earlier inputs when we see new minimums, because they can still factor in going forward.
 
 **Recursion**
 
