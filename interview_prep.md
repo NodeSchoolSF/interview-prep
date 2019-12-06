@@ -17,10 +17,10 @@ This guide is focused on a typical CS/algorithms-based interview. A plan of atta
 
 Find good resources to work through. There's a lot of good material out there so don't limit yourself to these, but some good ones I've used are:
 
-- **Leetcode** ($0 to $35/mo) - a site with a huge number of real interview problems from software companies, which you submit against a suite of test cases and which need to be solved with efficient solutions. There's a guide on what problems to work through in [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/best-practice-questions/). Recommended.
-- **Cracking the Coding Interview** ($35) - a book that covers CS concepts well, along with problems and solutions with explanations. Recommended.
-- Elements of Programming Interviews in Python ($36, Java and C++ also available) - more advanced than Cracking the Coding Interview.
-- Interview Cake ($0 to $249) - problems with high-quality explanations, and other reference material.
+- [**Leetcode**](https://leetcode.com/) ($0 to $35/mo) - a site with a huge number of real interview problems from software companies, where you can submit your solutions to the "online judge" which runs it against a suite of test cases. There's a guide on what problems to work through in [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/best-practice-questions/). Recommended.
+- [**Cracking the Coding Interview**](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850) ($35) - a book that covers CS concepts well, along with problems and solutions with explanations. Recommended.
+- [Elements of Programming Interviews in Python](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949) ($36, Java and C++ also available) - more advanced than Cracking the Coding Interview.
+- [Interview Cake](https://www.interviewcake.com/) ($0 to $249) - problems with high-quality explanations, and other reference material.
 - [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook) (free) - a comprehensive guide to the technical interview.
 
 ## Learn essential data structures and algorithms
