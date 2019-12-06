@@ -4,22 +4,56 @@
 
 This is the conceptual framework that drives many algorithms questions, with the implicit understanding that you're optimizing an algorithm for efficient big-O runtime or space (usually runtime).
 
-We can look at the [Two Sum](https://leetcode.com/problems/two-sum/) problem as an example with an obvious O(n^2) solution, but a better O(n) solution. The O(n^2) solution:
+We can look at the [Valid Anagram](https://leetcode.com/problems/valid-anagram/) problem as an example with a slower naive solution, but a better O(n) solution.
 
 ```js
-function twoSum(nums, target) {
-    for (let i = 0; i < nums.length; i++) {
-        for (let j = 0; j < nums.length; j++) {
-            if (i !== j && nums[i] + nums[j] === target) {
-                return [i, j];
-            }
-        }
-    }
-    return null;
+function isAnagram(source, target) {
+  const sourceArr = source.split('');
+  sourceArr.sort();
+
+  const targetArr = target.split('');
+  targetArr.sort();
+
+  // If the two sorted strings are the same, then they're anagrams of each other.
+  return sourceArr.join('')  === targetArr.join('');
 }
 ```
 
-`TODO`
+The big O runtime is O(n log n), because generally speaking, sorting algorithms can at best be O(n log n). The leetcode submission runtime is 100ms, faster than 34% of other JS solutions.
+
+With the right insight - that two anagrams have the same character count - we can do better. We also rely on the fact that in a hash table, setting a value and retrieving a value are O(1) operations.
+
+```
+function isAnagram(source, target) {
+  if (source.length !== target.length) {
+    return false;
+  }
+  const sourceArr = source.split('');
+  const targetArr = target.split('');
+  const charCounts = {};
+
+  // Count how many times each character occurs in source str
+  sourceArr.forEach((char) => {
+    charCounts[char] = charCounts[char] || 0;
+    charCounts[char] += 1;
+  });
+
+  // Iterate through target str, decrementing the counts for
+  // each char seen.
+  targetArr.forEach((char) => {
+    charCounts[char] = charCounts[char] || 0;
+    charCounts[char] -= 1;
+  });
+
+  // If all characters' counts are now 0, then each string has the
+  // same number of each character, and are therefore anagrams.
+  return Object.keys(charCounts).every((key) => {
+    return charCounts[key] === 0;
+  });
+}
+```
+
+The big O runtime is O(n). We make 5 linear O(n) passes. The actual runtime is now 60ms, now faster than 96% of other JS solutions.
 
 Concepts: `TODO`
 
@@ -100,13 +134,14 @@ Less common:
 
 ## Problem solving techniques
 
-- Greedy algorithms
+- **Greedy algorithms**
   - Technique: Sliding windows
     - [Longest substring without repeating characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
     - [Longest repeating character replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
     - [Minimum window substring](https://leetcode.com/problems/minimum-window-substring/)
+  - [Best time to buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
   - [Container with most water](https://leetcode.com/problems/container-with-most-water/)
-- Recursion and finding subproblems
+- **Recursion and finding subproblems**
   - If a brute force solution isn't obvious, think about whether you could solve the problem if you knew the answer for a subset of the input.
   - [Coin change](https://leetcode.com/problems/coin-change/)
   - [Climbing stairs](https://leetcode.com/problems/climbing-stairs/)
