@@ -31,28 +31,20 @@ While you're listening to someone's solution, keep the following in mind:
 
 Warm-up:
 
-* Contains duplicate
-  * https://leetcode.com/problems/contains-duplicate
+* [Contains duplicate](https://leetcode.com/problems/contains-duplicate)
   * Solutions: [javascript](solutions/contains_duplicate.js)
-* Reverse string
-  * https://leetcode.com/problems/reverse-string
+* [Reverse string](https://leetcode.com/problems/reverse-string)
   * Solutions: [javascript](solutions/reverse_string.js)
-* Find common characters
-  * https://leetcode.com/problems/find-common-characters
-* Valid anagram
-  * https://leetcode.com/problems/valid-anagram/
-* Two sum
-  * Mock interview: https://www.youtube.com/watch?v=wBXZD436JAg
-  * Leetcode: https://leetcode.com/problems/two-sum/
+* [Find common characters](https://leetcode.com/problems/find-common-characters)
+* [Valid anagram](https://leetcode.com/problems/valid-anagram/)
+* [Two sum](https://leetcode.com/problems/two-sum/)
 
 More difficult:
 
-* Coin change
-  * Mock interview: https://www.youtube.com/watch?v=HWW-jA6YjHk
-  * Leetcode: https://leetcode.com/problems/coin-change
+* [Coin change](https://leetcode.com/problems/coin-change)
+  * Example phone screen: https://www.youtube.com/watch?v=HWW-jA6YjHk
   * Solutions: [javascript](solutions/coin_change.js), [python](coin_change.py)
-* Climbing stairs
-  * https://leetcode.com/problems/climbing-stairs/
+* [Climbing stairs](https://leetcode.com/problems/climbing-stairs/)
 
 Tree:
 
