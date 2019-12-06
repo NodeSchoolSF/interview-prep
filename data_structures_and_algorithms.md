@@ -27,24 +27,6 @@ Concepts: `TODO`
 * Space usage with recursion is O(number of stack frames).
 * Sorting in general is O(n log n), but can be faster with specific inputs.
 
-Runtime for data structure operations: `TODO`
-
-* Arrays
-  * Random access
-  * Append
-  * Delete
-* Hash tables/sets
-* Stacks/queues
-  * Push/Insert at front
-  * Pop/Remove
-* Heaps
-  * Insert
-  * Extract min/max
-* Binary search trees
-  * Find
-  * Insert
-  * Delete
-
 References:
 
 - Cracking the Coding Interview, Ch. IV
@@ -55,6 +37,7 @@ References:
 Essential:
 
 - **Arrays and Strings**
+  - Big O: random access, append, delete `TODO`
   - Leetcode questions: [arrays](https://yangshun.github.io/tech-interview-handbook/algorithms/array/#recommended-leetcode-questions), [strings](https://yangshun.github.io/tech-interview-handbook/algorithms/string/#recommended-leetcode-questions)
   - References:
     - Cracking the Coding Interview, Ch. 1
@@ -68,6 +51,9 @@ Essential:
   - [Leetcode questions](https://yangshun.github.io/tech-interview-handbook/algorithms/linked-list/#recommended-leetcode-questions)
     - [Merge two sorted lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - **Stacks and Queues**
+  - Big O: `TODO`
+    - Stacks: push/pop
+    - Queues: enqueue/dequeue
   - In javascript, stacks can be implemented with arrays (`const stack = []; stack.push(item); stack.pop();`)
   - Concepts:
     - Know how to write a Stack or Queue with a linked list
@@ -77,6 +63,7 @@ Essential:
   - Leetcode questions:
     - [Valid parentheses](https://leetcode.com/problems/valid-parentheses/)
 - **Trees**
+  - Big O: find, insert, delete `TODO`
   - Concepts: binary tree traversal (in-order, pre-order, post-order)
   - Can implement as `class TreeNode { value: any, children: TreeNode[] }`, or `class TreeNode { value: any, left: TreeNode | null, right: TreeNode | null }` for binary trees. Can also implement as an array.
   - References:
@@ -108,6 +95,7 @@ Less common:
   - References:
     - [Tech interview handbook](https://yangshun.github.io/tech-interview-handbook/algorithms/trie)
 - Heaps
+  - Big O: insert, extract min/max `TODO`
 
 
 ## Problem solving techniques
