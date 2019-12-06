@@ -22,17 +22,14 @@ Cover it.
 
 ## Data structures and algorithms
 
-Go through how big-O applies to a real-life leetcode question - how to reduce O(n^2) to O(n) for example. Implement both solutions and use online judge. Encourage people to re-implement themselves (in person there or later?).
+Go through how big-O applies to a real-life leetcode question. Implement both solutions and use online judge to show how O(n^2) exceeds time limit. Encourage people to re-implement themselves (in person there or later?).
 
-Implement e.g. a "stack" class? (optional)
+Concepts and problems:
 
-Recognizing greedy, and DP (give examples).
-
-Cover recursion/subproblems/DP, with coin change or climing stairs problems.
-
-Cover trees and graphs, from perspective of two leetcode questions? Implement DFS as part of a problem. **TODO**
-
-Mention which data structures are important, and leetcode problems that exercise each one.
+* Implement e.g. a "stack" class? (optional)
+* Recognizing greedy, and DP (give examples)
+* Cover recursion/subproblems/DP, with coin change or climing stairs problems(?)
+* Cover trees and graphs, from perspective of two leetcode questions? Implement DFS helper as part of a problem. **TODO**
 
 Point to additional resources.
 
@@ -42,6 +39,8 @@ Point to additional resources.
 Arrange into pairs, and take turns (30 minutes each).
 
 Have one person pick a problem for the other person. They'll read the question verbally first and the "interviewee" codes it up (not on leetcode).
+
+If people don't want to do that, they can also pair on it instead of interview/interviewee. (can ask which format people would prefer)
 
 Go over solutions (**TODO**: does this mean they should be fixed instead of from a pool? maybe not). Go over what test cases I'd write.
 

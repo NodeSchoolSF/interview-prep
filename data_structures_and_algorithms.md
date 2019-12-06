@@ -4,10 +4,26 @@
 
 This is the conceptual framework that drives many algorithms questions, with the implicit understanding that you're optimizing an algorithm for efficient big-O runtime or space (usually runtime).
 
+We can look at the [Two Sum](https://leetcode.com/problems/two-sum/) problem as an example with an obvious O(n^2) solution, but a better O(n) solution. The O(n^2) solution:
+
+```js
+function twoSum(nums, target) {
+    for (let i = 0; i < nums.length; i++) {
+        for (let j = 0; j < nums.length; j++) {
+            if (i !== j && nums[i] + nums[j] === target) {
+                return [i, j];
+            }
+        }
+    }
+    return null;
+}
+```
+
+`TODO`
+
 Concepts: `TODO`
 
 * Time and space, amortization, log(n) runtimes (e.g. binary search), multiple inputs (e.g. two arrays, array of strings of different lengths).
-* [Valid Anagram](https://leetcode.com/problems/valid-anagram/) is a typical example of an array problem with obvious O(n^2) solution, but a better O(n) solution.
 * Space usage with recursion is O(number of stack frames).
 * Sorting in general is O(n log n), but can be faster with specific inputs.
 
@@ -40,10 +56,11 @@ Essential:
 
 - **Arrays and Strings**
   - Leetcode questions: [arrays](https://yangshun.github.io/tech-interview-handbook/algorithms/array/#recommended-leetcode-questions), [strings](https://yangshun.github.io/tech-interview-handbook/algorithms/string/#recommended-leetcode-questions)
-  - References: Cracking the Coding Interview, Ch. 1
+  - References:
+    - Cracking the Coding Interview, Ch. 1
 - **Hash tables**
   - Big O: O(1) lookup, O(1) insert amortized
-  - In javascript, you can use objects (e.g. `{ key: value }`)
+  - In javascript, objects act like hash tables (`{ key: value }`)
 - **Linked lists**
   - Can implement as `class ListNode { value: any, next: ListNode | null, prev: ListNode | null }`
   - Concepts: know how to implement a Node class, singly vs doubly linked, deletion, [two "runner" technique](https://leetcode.com/problems/linked-list-cycle/solution/)
@@ -51,35 +68,45 @@ Essential:
   - [Leetcode questions](https://yangshun.github.io/tech-interview-handbook/algorithms/linked-list/#recommended-leetcode-questions)
     - [Merge two sorted lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - **Stacks and Queues**
-  - References: Cracking the Coding Interview, Ch. 3
   - In javascript, stacks can be implemented with arrays (`const stack = []; stack.push(item); stack.pop();`)
-  - Concepts: know how to write a Stack class using arrays or linked lists, implementing a Queue with a linked list, using stacks to implement recursive algorithms iteratively
+  - Concepts:
+    - Know how to write a Stack or Queue with a linked list
+    - Know how to use a stack to implement recursive algorithms iteratively
+  - References:
+    - Cracking the Coding Interview, Ch. 3
   - Leetcode questions:
     - [Valid parentheses](https://leetcode.com/problems/valid-parentheses/)
-- **[Trees](https://yangshun.github.io/tech-interview-handbook/algorithms/tree)**
+- **Trees**
   - Concepts: binary tree traversal (in-order, pre-order, post-order)
   - Can implement as `class TreeNode { value: any, children: TreeNode[] }`, or `class TreeNode { value: any, left: TreeNode | null, right: TreeNode | null }` for binary trees. Can also implement as an array.
-  - References: Cracking the Coding Interview, Ch. 4
+  - References:
+    - Cracking the Coding Interview, Ch. 4
+    - [Tech interview handbook](https://yangshun.github.io/tech-interview-handbook/algorithms/tree)
   - Leetcode questions:
     - [Maximum depth of binary tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
-- **[Graphs](https://yangshun.github.io/tech-interview-handbook/algorithms/graph)**
+    - [Invert binary tree](https://leetcode.com/problems/invert-binary-tree/)
+- **Graphs**
   - Adjacency list: `class Graph { nodes: GraphNode[] }; class GraphNode { value: any, neighbors: GraphNode[] }`
-  - Can represent simply as a dict of nodes to neighbors: `{ 0: [1, 2], 2: [3, 5], ... }`
+  - Can represent simply using a hash table that maps nodes (keys) to neighbors (value array): `{ 0: [1, 2], 2: [3, 5], ... }`
   - Intuition on what can be translated into a graph problem (e.g. a maze)
   - Depth-first search (DFS): explore a branch fully before going to other neighbors. Simpler than BFS. Can be implemented recursively, or with a stack.
     - [Number of islands](https://leetcode.com/problems/number-of-islands/)
     - [N-queens](https://leetcode.com/problems/n-queens/)
   - Breadth-first search (BFS): visit all neighbors before going to any deeper neighbors. Can be used to find shortest path. Uses a queue.
     - [Binary tree level order traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
-  - References: Cracking the Coding Interview, Ch. 4
+  - References:
+    - Cracking the Coding Interview, Ch. 4
+    - [Tech interview handbook](https://yangshun.github.io/tech-interview-handbook/algorithms/graph)
   - Leetcode questions:
     - [Course schedule](https://leetcode.com/problems/course-schedule/)
 
 Less common:
 
-- [Tries](https://yangshun.github.io/tech-interview-handbook/algorithms/trie/)
+- Tries
   - A type of tree, can appear in string search and prefix search problems. Improves efficiency of searching for a length-k string among n strings from O(n) to O(k).
   - [Leetcode questions](https://yangshun.github.io/tech-interview-handbook/algorithms/trie/)
+  - References:
+    - [Tech interview handbook](https://yangshun.github.io/tech-interview-handbook/algorithms/trie)
 - Heaps
 
 
