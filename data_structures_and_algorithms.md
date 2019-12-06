@@ -153,6 +153,23 @@ Less common:
   - Sometimes, you can find an efficient implementation by combining existing data structures, or having multiple of the same data structure. A well-known example is to [combine a hashtable and linked list to build an LRU cache](https://leetcode.com/problems/lru-cache/).
 
 
+## Practice!
+
+
+**Greedy algorithms**
+
+Let's go through [Best time to buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/).
+
+
+**Recursion**
+
+`TODO`
+
+**Trees and graphs**
+
+`TODO`
+
+
 ## References
 
 `TODO`: add

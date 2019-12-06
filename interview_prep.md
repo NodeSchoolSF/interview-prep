@@ -40,7 +40,9 @@ If you expect your interview to have algorithms questions, the best way to prepa
 - Evaluate the runtime/space of your solution in big O
 - [Other tips from Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/algorithms/algorithms-introduction)
 
-As you solve problems, you'll find common problem-solving patterns [[1]](https://medium.com/@yashgirdhar/11-companies-55-interviews-9-offers-including-google-and-amazon-heres-what-i-have-to-share-293852c1c98f). Take notes on these patterns! It'll help you re-apply them to new problems. After you solve a problem, read the solution carefully and make sure you fully understand it (on Leetcode, there are often good solutions in the language of your choice in the "Discuss" tab).
+As you solve problems, you'll find common problem-solving patterns [[1]](https://medium.com/@yashgirdhar/11-companies-55-interviews-9-offers-including-google-and-amazon-heres-what-i-have-to-share-293852c1c98f). Take notes on these patterns! It'll help you re-apply them to new problems.
+
+After you solve a problem, read the solution carefully and make sure you fully understand it. On Leetcode, there are often good solutions in the language of your choice in the "Discuss" tab. If you didn't get the solution, try implementing the solution without looking at it.
 
 Doing a lot of problems will also help you get fast at [common programming patterns](./common_programming_patterns.md). Make sure you know how to do these quickly and without errors in your preferred language.
 
