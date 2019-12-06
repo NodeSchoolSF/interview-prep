@@ -57,29 +57,29 @@ References:
 
 Essential:
 
-- Arrays and Strings
+- **Arrays and Strings**
   - Leetcode questions: [arrays](https://yangshun.github.io/tech-interview-handbook/algorithms/array/#recommended-leetcode-questions), [strings](https://yangshun.github.io/tech-interview-handbook/algorithms/string/#recommended-leetcode-questions)
   - References: Cracking the Coding Interview, Ch. 1
-- Hash tables
+- **Hash tables**
   - Big O: O(1) lookup, O(1) insert amortized
-- Linked lists
+- **Linked lists**
   - Can implement as `class ListNode { value: any, next: ListNode | null, prev: ListNode | null }`
   - Concepts: know how to implement a Node class, singly vs doubly linked, deletion, [two "runner" technique](https://leetcode.com/problems/linked-list-cycle/solution/)
   - Sometimes solutions can be simplified by having dummy head/tail elements (see [LRU cache solution](https://leetcode.com/problems/lru-cache/solution/))
   - [Leetcode questions](https://yangshun.github.io/tech-interview-handbook/algorithms/linked-list/#recommended-leetcode-questions)
     - [Merge two sorted lists](https://leetcode.com/problems/merge-two-sorted-lists/)
-- Stacks and Queues
+- **Stacks and Queues**
   - References: Cracking the Coding Interview, Ch. 3
   - Concepts: know how to write a Stack class using arrays or linked lists, implementing a Queue with a linked list, using stacks to implement recursive algorithms iteratively
   - Leetcode questions:
     - [Valid parentheses](https://leetcode.com/problems/valid-parentheses/)
-- [Trees](https://yangshun.github.io/tech-interview-handbook/algorithms/tree)
+- **[Trees](https://yangshun.github.io/tech-interview-handbook/algorithms/tree)**
   - Concepts: binary tree traversal (in-order, pre-order, post-order)
   - Can implement as `class TreeNode { value: any, children: TreeNode[] }`, or `class TreeNode { value: any, left: TreeNode | null, right: TreeNode | null }` for binary trees. Can also implement as an array.
   - References: Cracking the Coding Interview, Ch. 4
   - Leetcode questions:
     - [Maximum depth of binary tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
-- [Graphs](https://yangshun.github.io/tech-interview-handbook/algorithms/graph)
+- **[Graphs](https://yangshun.github.io/tech-interview-handbook/algorithms/graph)**
   - Adjacency list: `class Graph { nodes: GraphNode[] }; class GraphNode { value: any, neighbors: GraphNode[] }`
   - Can represent simply as a dict of nodes to neighbors: `{ 0: [1, 2], 2: [3, 5], ... }`
   - Intuition on what can be translated into a graph problem (e.g. a maze)
