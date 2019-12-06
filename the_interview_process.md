@@ -17,24 +17,20 @@ See the earlier "Prep for behavioral questions" section for possible questions h
 
 This is usually a 1 hour phone call where an engineer or engineering manager asks you technical questions to evaluate whether to continue with the process.
 
-You may be asked to explain technical concepts like "what is the event loop in javascript?".
+You may be asked to explain technical concepts like "what is the event loop in javascript?". See the "Know your language in and out" section in [interview_prep.md](interview_prep.md) for some more examples.
 
 Many companies will now do a remote coding challenge where they give you a question, and you code it up in a collaborative editor like [CoderPad](https://coderpad.io/) (which can run your code) or [CodePen](https://codepen.io) (for front-end stuff). You'll ideally be able to explain your thought process as you're coding.
 
 Here are a few recordings of realistic technical phone screens which shows how the process works and how candidates think out loud:
 
-* [Missing item list difference with an Airbnb engineer](https://www.youtube.com/watch?v=cdCeU8DJvPM) - very good candidate who communicates clearly
-* [Coin change problem with a Google engineer](https://www.youtube.com/watch?v=HWW-jA6YjHk) - first 9 minutes are useful for seeing how candidate solves the naive version of the problem cleanly, and talks about big-O time complexity
-
-Possible examples of questions you might see:
-
-- `TODO`
+* [Missing item list difference with an Airbnb engineer](https://www.youtube.com/watch?v=cdCeU8DJvPM) - very good candidate who communicates clearly.
+* [Coin change problem with a Google engineer](https://www.youtube.com/watch?v=HWW-jA6YjHk) - first 9 minutes are useful for seeing how candidate solves the naive version of the problem cleanly, and talks about big-O time complexity.
 
 ## 3. The take-home challenge (possibly)
 
 Some companies will issue a take-home challenge, which usually ranges from 1 to 4 hours, to be completed on your own time.
 
-A few recommendations:
+There isn't necessarily much you need to do to prepare for this, but a few recommendations:
 
 - Solve the base requirements of the challenge as quickly as possible without being bogged down by minor details. After that, you can feel comfortable to refactor your code.
 - If you have time, write good tests. This is one way for you to stand out against other applicants, because tests aren't always prioritized highly by candidates.

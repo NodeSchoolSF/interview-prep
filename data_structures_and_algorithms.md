@@ -2,10 +2,14 @@
 
 ## Big O analysis
 
-- Concepts: Time and space, amortization, log(n) runtimes (e.g. binary search), multiple inputs (e.g. two arrays, array of strings of different lengths), 
-- [Valid Anagram](https://leetcode.com/problems/valid-anagram/) is a typical example of an array problem with obvious O(n^2) solution, but a better O(n) solution.
-- Space usage with recursion is O(number of stack frames).
-- Sorting in general is O(n log n), but can be faster with specific inputs.
+This is the conceptual framework that drives many algorithms questions, with the implicit understanding that you're optimizing an algorithm for efficient big-O runtime or space (usually runtime).
+
+Concepts: `TODO`
+
+* Time and space, amortization, log(n) runtimes (e.g. binary search), multiple inputs (e.g. two arrays, array of strings of different lengths).
+* [Valid Anagram](https://leetcode.com/problems/valid-anagram/) is a typical example of an array problem with obvious O(n^2) solution, but a better O(n) solution.
+* Space usage with recursion is O(number of stack frames).
+* Sorting in general is O(n log n), but can be faster with specific inputs.
 
 Runtime for data structure operations: `TODO`
 
@@ -49,10 +53,12 @@ References:
 - Combining data structures
   - Sometimes, you can find an efficient implementation by combining existing data structures, or having multiple of the same data structure. A well-known example is to [combine a hashtable and linked list to build an LRU cache](https://leetcode.com/problems/lru-cache/).
 
-Data structures:
+## Data structures
+
+Essential:
 
 - Arrays and Strings
-  - Leetcode questions: [arrays](https://yangshun.github.io/tech-interview-handbook/algorithms/array), [strings](https://yangshun.github.io/tech-interview-handbook/algorithms/string)
+  - Leetcode questions: [arrays](https://yangshun.github.io/tech-interview-handbook/algorithms/array/#recommended-leetcode-questions), [strings](https://yangshun.github.io/tech-interview-handbook/algorithms/string/#recommended-leetcode-questions)
   - References: Cracking the Coding Interview, Ch. 1
 - Hash tables
   - Big O: O(1) lookup, O(1) insert amortized
@@ -60,7 +66,7 @@ Data structures:
   - Can implement as `class ListNode { value: any, next: ListNode | null, prev: ListNode | null }`
   - Concepts: know how to implement a Node class, singly vs doubly linked, deletion, [two "runner" technique](https://leetcode.com/problems/linked-list-cycle/solution/)
   - Sometimes solutions can be simplified by having dummy head/tail elements (see [LRU cache solution](https://leetcode.com/problems/lru-cache/solution/))
-  - [Leetcode questions](https://yangshun.github.io/tech-interview-handbook/algorithms/linked-list)
+  - [Leetcode questions](https://yangshun.github.io/tech-interview-handbook/algorithms/linked-list/#recommended-leetcode-questions)
     - [Merge two sorted lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - Stacks and Queues
   - References: Cracking the Coding Interview, Ch. 3
@@ -85,14 +91,22 @@ Data structures:
   - References: Cracking the Coding Interview, Ch. 4
   - Leetcode questions:
     - [Course schedule](https://leetcode.com/problems/course-schedule/)
+
+Less common:
+
 - [Tries](https://yangshun.github.io/tech-interview-handbook/algorithms/trie/)
   - A type of tree, can appear in string search and prefix search problems. Improves efficiency of searching for a length-k string among n strings from O(n) to O(k).
   - [Leetcode questions](https://yangshun.github.io/tech-interview-handbook/algorithms/trie/)
+- Heaps
+
 
 ## References
 
+`TODO`: add
+
 - [https://github.com/kdn251/interviews](https://github.com/kdn251/interviews) - overview of algorithms and data structures, prep resources, and problem solutions in Java
 - [https://github.com/yangshun/lago](https://github.com/yangshun/lago) - data structures and algorithms in JS
+
 
 ## Next section
 
