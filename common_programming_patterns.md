@@ -2,7 +2,7 @@
 
 These will come up often in programming questions.
 
-**Iterating through each pair of items in an array**
+## Iterating through each pair of items in an array
 
 Includes indices, and only covers unique index pairs.
 
@@ -28,7 +28,7 @@ for idx1 in range(len(array)):
         print(array[idx1], array[idx2])
 ```
 
-**Iterating through a 2D array**
+## Iterating through a 2D array
 
 Javascript:
 
@@ -54,7 +54,7 @@ for rowIndex in range(len(array)):
         print(row[colIndex])
 ```
 
-**Initialize an array of fixed size**
+## Initialize an array of fixed size
 
 Javascript:
 
@@ -67,7 +67,7 @@ size = 20
 array = [None] * size
 ```
 
-**Initialize a 2D array**
+## Initialize a 2D array
 
 Javascript:
 
@@ -82,7 +82,7 @@ array = [[None] * num_cols for _ in num_rows]
 ```
 
 
-**Track the count of an item using a hash**
+## Track the count of an item using a hash
 
 Javascript:
 
@@ -120,11 +120,11 @@ for item in array:
     counts[item] += 1
 ```
 
-**Track existence of an item in a set**
+## Track existence of an item in a set
 
 `TODO`
 
-**Using an array as a stack**
+## Using an array as a stack
 
 Javascript:
 
@@ -150,7 +150,9 @@ stack.push(item)
 item = stack.pop()
 ```
 
-**Maximum and minimum numeric values for comparison**
+## Maximum and minimum numeric values
+
+This is often needed if you want to initialize e.g. a `max_value_seen` variable which will immediately be overwritten by the first value seen.
 
 Javascript:
 
@@ -166,7 +168,7 @@ float('inf')
 float('-inf')
 ```
 
-**Division of two numbers with quotient and remainder**
+## Division of two numbers with quotient and remainder
 
 Javascript:
 
@@ -188,7 +190,7 @@ quotient = x // y
 remainder = x % y
 ```
 
-**Reversing a string**
+## Reversing a string
 
 Javascript:
 
@@ -204,6 +206,6 @@ str = "abcdef"
 return str[::-1]
 ```
 
-**Depth first search helper function**
+## Depth first search helper function
 
 `TODO`

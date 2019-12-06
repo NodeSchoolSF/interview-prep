@@ -6,6 +6,12 @@ To see how a real phone screen can play out, you can watch a recording of someon
 
 When I'm solving a Leetcode problem, I'll code it in a JS file and run `node problem.js` to evaluate it. I'll console.log or assert some test cases at the bottom to check the functionality. See some of the [solutions](/solutions) for examples of this.
 
+Some useful posts on how to approach a fresh problem:
+
+- [Google Interview Questions Deconstructed: Synonymous Queries](https://medium.com/@alexgolec/google-interview-problems-synonymous-queries-36425145387c) - a great post
+- [Google Interview Problems: Ratio Finder](https://medium.com/@alexgolec/google-interview-problems-synonymous-queries-36425145387c) - a good breakdown of how to think about a graph search problem
+
+
 ## Paired practice
 
 Pair up into groups of 2. Each person picks one of the questions to work on. One person go first and try to solve the problem on their computer (or on whiteboard, if they want to practice that) while the other person listens.

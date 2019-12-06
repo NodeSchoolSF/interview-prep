@@ -89,6 +89,10 @@ Data structures:
   - A type of tree, can appear in string search and prefix search problems. Improves efficiency of searching for a length-k string among n strings from O(n) to O(k).
   - [Leetcode questions](https://yangshun.github.io/tech-interview-handbook/algorithms/trie/)
 
+## References
+
+- [https://github.com/kdn251/interviews](https://github.com/kdn251/interviews) - overview of algorithms and data structures, prep resources, and problem solutions in Java
+- [https://github.com/yangshun/lago](https://github.com/yangshun/lago) - data structures and algorithms in JS
 
 ## Next section
 

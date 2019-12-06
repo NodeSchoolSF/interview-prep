@@ -43,7 +43,7 @@ If you expect your interview to have algorithms questions, the best way to prepa
 
 As you solve problems, you'll find common problem-solving patterns [[1]](https://medium.com/@yashgirdhar/11-companies-55-interviews-9-offers-including-google-and-amazon-heres-what-i-have-to-share-293852c1c98f). Take notes on these patterns! It'll help you re-apply them to new problems. After you solve a problem, read the solution carefully and make sure you fully understand it (on Leetcode, there are often good solutions in the language of your choice in the "Discuss" tab).
 
-Doing a lot of problems will also help you get fast at [common coding patterns](./common_programming_patterns.md). Make sure you know how to do these quickly and without errors in your preferred language.
+Doing a lot of problems will also help you get fast at [common programming patterns](./common_programming_patterns.md). Make sure you know how to do these quickly and without errors in your preferred language.
 
 
 ## Know your language in and out
@@ -130,14 +130,6 @@ Some tips for your project:
 
 A side project is always easier if it's about something you care about. What are your interests? For me, I like music a lot, so I built a map that displays nearby concerts on top of the Songkick API. You can also build a tool to solve a pain point you have, something you've encountered in everyday life — like a chrome extension that generates Github release notes.
 
-
-## References
-
-- [Google Interview Questions Deconstructed: Synonymous Queries](https://medium.com/@alexgolec/google-interview-problems-synonymous-queries-36425145387c) - a great post
-- [Google Interview Problems: Ratio Finder](https://medium.com/@alexgolec/google-interview-problems-synonymous-queries-36425145387c) - a good breakdown of how to think about a graph search problem
-- [11 companies, 55 Interviews, 9 offers](https://medium.com/@yashgirdhar/11-companies-55-interviews-9-offers-including-google-and-amazon-heres-what-i-have-to-share-293852c1c98f) - `TODO`
-- [https://github.com/kdn251/interviews](https://github.com/kdn251/interviews) - overview of algorithms and data structures, prep resources, and problem solutions in Java
-- [https://github.com/yangshun/lago](https://github.com/yangshun/lago) - data structures and algorithms in JS
 
 ## Next section
 
