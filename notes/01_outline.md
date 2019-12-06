@@ -49,3 +49,5 @@ Go over solutions (**TODO**: does this mean they should be fixed instead of from
 Give link to Github repo: https://github.com/NodeSchoolSF/interview-prep
 
 Ask for feedback: https://docs.google.com/forms/d/e/1FAIpQLSdU8pLsq7MGZJ1SBw17caceb5m6iO-SLCabR3Dn5skEiHF5FQ/viewform?usp=sf_link
+
+Workshop is over, but people can ask questions or get advice.

@@ -66,8 +66,7 @@ You'll want to use the language you're most comfortable with for interviews, and
 ## Practice whiteboarding
 
 Whiteboarding is nervewracking! For technical problems, interviewers generally like to see a candidate explain their thought process as they're solving a problem. I know this can be really hard; I struggle with this part. It's useful to practice this upfront! Practicing whiteboarding with a friend is highly recommended in order to get you more comfortable and used to thinking out loud [[1]](https://blog.usejournal.com/i-interviewed-at-six-top-companies-in-silicon-valley-in-six-days-and-stumbled-into-six-job-offers-fe9cc7bbc996). 
-
-[https://interviewing.io](https://interviewing.io/) is a site where you can practice realistic algorithmic interviews with engineers for free. `TODO`
+[interviewing.io](https://interviewing.io/) is a site where you can practice realistic algorithmic interviews with engineers for free.
 
 
 ## Do your research on companies
@@ -90,16 +89,12 @@ If you're interested in working at a startup, here are a few ways to find them:
 Common behavioral questions:
 
 - **Tell me about yourself.** [Here's a good reference](https://yangshun.github.io/tech-interview-handbook/self-introduction) on answering this self-introduction question.
-- **Why are you interested in working at this company? `TODO`**
+- **Why are you interested in working at this company?** Take a look at the company's product, website, job listing, and think about what resonates with you and what you're genuinely interested in.
 - **Talk about a challenging project you worked on.** You'll want to be able to give a solid answer — and it really helps if you have either a recent work project or a side project that you can talk about in depth (see the "Have a good side project" section for more on this). The interviewer is trying to evaluate whether you can talk coherently about a complex topic, at both a high level and a technical level. Clear communication about technical work is extremely important - you'll need to talk to PMs, stakeholders, designers, and other engineers all the time at a startup.
-- **What are you looking for in your next position? `TODO`**
+- **What are you looking for in your next position?**
 - [Here's a list of more behavioral questions from Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/behavioral-questions/)
 
-**Questions to ask interviewers**: you'll also want to be prepared to have some questions for each interviewer (which can end up being a lot of questions at an onsite with 5 interviewers). The questions you ask can have an impact! Interviewers may use them to judge what your priorities are  and whether you're interested in the mission.
-
-`TODO`
-
-- [List of questions to ask](https://yangshun.github.io/tech-interview-handbook/questions-to-ask)
+**Questions to ask interviewers**: you'll also want to be prepared to have some questions for each interviewer (which can end up being a lot of questions at an onsite with 5 interviewers). The questions you ask can have an impact! Interviewers may use them to judge what your priorities are and whether you're interested in the mission. Here's a [list of possible questions to ask](https://yangshun.github.io/tech-interview-handbook/questions-to-ask) to get started, but I recommend thinking up your own as well.
 
 
 ## Have a good side project
