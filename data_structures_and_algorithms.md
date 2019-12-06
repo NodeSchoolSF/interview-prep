@@ -1,5 +1,4 @@
-# CS Fundamentals
-
+# Data structures and algorithms
 
 ## Big O analysis
 
@@ -89,7 +88,6 @@ Data structures:
 - [Tries](https://yangshun.github.io/tech-interview-handbook/algorithms/trie/)
   - A type of tree, can appear in string search and prefix search problems. Improves efficiency of searching for a length-k string among n strings from O(n) to O(k).
   - [Leetcode questions](https://yangshun.github.io/tech-interview-handbook/algorithms/trie/)
-
 
 
 ## Next section

@@ -53,4 +53,4 @@ General advice:
 
 ## Next section
 
-[**Next: CS fundamentals**](cs_fundamentals.md)
+[**Next: Data structures and algorithms**](data_structures_and_algorithms.md)

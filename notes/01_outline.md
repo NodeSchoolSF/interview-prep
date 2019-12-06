@@ -20,7 +20,7 @@ Cover basic behavioral Q's. Example answer for one?
 Cover it.
 
 
-## CS fundamentals
+## Data structures and algorithms
 
 Go through how big-O applies to a real-life leetcode question - how to reduce O(n^2) to O(n) for example. Implement both solutions and use online judge. Encourage people to re-implement themselves (in person there or later?).
 

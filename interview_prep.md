@@ -2,7 +2,7 @@
 
 **Important note:** The degree to which companies test for algorithms knowledge varies widely. If possible, look into what kinds of questions the company tends to ask (Glassdoor or Leetcode are places to start, but worth searching online for more resources). Generally speaking, startups are more likely to ask questions more related to everyday work, whereas larger companies are more likely to ask CS/algorithms questions. **[Check out this guide for some tips on startup-specific interview prep](startup_interview_prep.md)**.
 
-This guide is focused on a typical CS fundamentals based interview. A plan of attack to prepare:
+This guide is focused on a typical CS/algorithms-based interview. A plan of attack to prepare:
 
 - Work through good interview prep resources
 - Learn essential data structures and algorithms
@@ -25,7 +25,7 @@ Find good resources to work through. There's a lot of good material out there so
 
 ## Learn essential data structures and algorithms
 
-We'll cover this in more detail in [CS fundamentals](cs_fundamentals.md).
+We'll cover this in more detail in the [data structures and algorithms](data_structures_and_algorithms.md) doc.
 
 ## Solve problems
 
