@@ -8,6 +8,10 @@ We can look at the [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 
 ```js
 function isAnagram(source, target) {
+  if (source.length !== target.length) {
+    return false;
+  }
+
   const sourceArr = source.split('');
   sourceArr.sort();
 
@@ -19,9 +23,10 @@ function isAnagram(source, target) {
 }
 ```
 
-The big O runtime is O(n log n), because sorting an array generally takes O(n log n) time (and we call it twice with `.sort()`). The leetcode submission runtime is 100ms, faster than 34% of other JS solutions.
+The big O runtime is O(n log n), because sorting an array generally takes O(n log n) time (and we call it twice with `.sort()`). What is "n"? It's the length in characters of both source and target strings.
 
-With the right insight - that two anagrams have the same character count - we can do better. We also rely on the fact that in a hash table, setting a value and retrieving a value are O(1) operations.
+
+The leetcode submission runtime is 100ms, faster than 34% of other JS solutions. Can we do better? With the right insight - that two anagrams have the same character count - we can. We also rely on the fact that in a hash table, setting a value and retrieving a value are O(1) operations.
 
 ```js
 function isAnagram(source, target) {
