@@ -7,6 +7,9 @@ brew install node
 git clone git@github.com:NodeSchoolSF/interview-prep.git
 ```
 
+It will also be useful to have a free account on [Leetcode](https://leetcode.com/) so we can submit solutions to problems.
+
+
 ## Big O analysis
 
 This is the conceptual framework that drives many algorithms questions, with the implicit understanding that you're optimizing an algorithm for efficient big-O runtime or space (usually runtime).
@@ -31,7 +34,6 @@ function isAnagram(source, target) {
 ```
 
 The big O runtime is O(n log n), because sorting an array generally takes O(n log n) time (and we call it twice with `.sort()`). What is "n"? It's the length in characters of both source and target strings.
-
 
 The leetcode submission runtime is 100ms, faster than 34% of other JS solutions. Can we do better? With the right insight - that two anagrams have the same character count - we can. We also rely on the fact that in a hash table, setting a value and retrieving a value are O(1) operations.
 
@@ -65,7 +67,7 @@ function isAnagram(source, target) {
 }
 ```
 
-The big O runtime is O(n). We make 5 linear O(n) passes. The actual runtime is now 60ms, now faster than 96% of other JS solutions.
+The big O runtime is O(n). We make 5 linear O(n) passes. If we submit it, the runtime has been improved from before.
 
 Concepts:
 
@@ -179,7 +181,9 @@ Less common:
 
 Let's go through [Best time to buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/).
 
-There's a brute force O(n^2) solution where you compare every 2 elements and record the price difference. How can we do better?
+There's a brute force O(n^2) solution where you compare every 2 elements and record the price difference. We get O(n^2) because we iterate through n + (n - 1) + (n - 2) + ... + 1 pairs, which sums to (n + 1) * (n / 2) = (n^2 + n) / 2, which is proportional to n^2.
+
+How can we do better?
 
 Well, let's take a look at each time we see a new minimum stock value. Going forward, we no longer need to consider any values to the left of this new minimum - because any price difference to the right will strictly be better starting from this new minimum. This is a trademark of greedy algorithms - we don't need to "backtrack" and we can discard parts of the input. We should keep track of what the biggest price difference had been, though, in case it was higher.
 

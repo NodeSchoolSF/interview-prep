@@ -9,7 +9,9 @@ Interview processes vary widely; [here are some interview formats](https://yangs
 
 ## 1. The initial phone call
 
-This is to evaluate whether continuing the process makes sense for both parties. They'll ask you about your background and experience. Enthusiasm for the company and mission and being well-spoken is often useful here.
+This is to evaluate whether continuing the process makes sense for both parties. They'll ask you about items on your resume, and your background and experience, to make sure there was no miscommunication about whether your experience fits the role.
+
+This call isn't typically cause for rejection, but it can be. Enthusiasm for the company and mission and being well-spoken is often useful here.
 
 See ["Prep for behavioral questions"](interview_prep.md#prep-for-behavioral-questions) for possible questions here.
 
