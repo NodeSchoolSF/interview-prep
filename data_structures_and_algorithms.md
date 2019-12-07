@@ -12,7 +12,9 @@ It will also be useful to have a free account on [Leetcode](https://leetcode.com
 
 ## Big O analysis
 
-This is the conceptual framework that drives many algorithms questions, with the implicit understanding that you're optimizing an algorithm for efficient big-O runtime or space (usually runtime).
+Big O characterizes (1) how long a function takes to run, or (2) how much memory/space the function uses, as the size of its input increases.
+
+![big o graph](assets/big-o-graph.png)
 
 We can look at the [Valid Anagram](https://leetcode.com/problems/valid-anagram/) problem as an example with a slower naive solution, but a better O(n) solution.
 

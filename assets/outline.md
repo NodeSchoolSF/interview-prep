@@ -4,13 +4,11 @@ Self intro.
 
 This will likely go until 5.
 
-Programming interviews are notoriously challenging and can require a great depth of knowledge. We only have 2-3 hours, so this will be more of an outline or a map - in many cases I'll point you in (hopefully) the right direction, but I won't cover the topic in depth.
+Can interrupt with questions anytime.
 
 ## Interview prep
 
 Startups.
-
-Cover basic behavioral Q's. Example answer for one?
 
 
 ## The interview process
@@ -20,12 +18,15 @@ Cover it.
 
 ## Data structures and algorithms
 
-Go through how big-O applies to a real-life leetcode question. Implement both solutions and use online judge to show how O(n^2) exceeds time limit. Encourage people to re-implement themselves (in person there or later?).
+Go through how big-O applies to a real-life leetcode question. Implement both solutions and use online judge to show how O(n^2) exceeds time limit.
+
+**After going through Valid Anagram, have students do a real problem: "contains duplicate" and "find common characters".**
+
+Alternate between illustrating a concept via a problem, and having people solve a related problem.
 
 Concepts and problems:
 
 * Implement e.g. a "stack" class? (optional)
-* Recognizing greedy, and DP (give examples)
 * Cover recursion/subproblems/DP, with coin change or climing stairs problems(?)
 * Cover trees and graphs, from perspective of two leetcode questions? Implement DFS helper as part of a problem. **TODO**
 
