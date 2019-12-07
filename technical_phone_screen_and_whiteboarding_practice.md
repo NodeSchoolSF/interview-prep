@@ -32,18 +32,10 @@ Warm-up:
 
 * [Contains duplicate](https://leetcode.com/problems/contains-duplicate)
   * Solutions: [javascript](solutions/contains_duplicate.js)
+* [Find common characters](https://leetcode.com/problems/find-common-characters)
 * [Reverse string](https://leetcode.com/problems/reverse-string)
   * Solutions: [javascript](solutions/reverse_string.js)
-* [Find common characters](https://leetcode.com/problems/find-common-characters)
-* [Valid anagram](https://leetcode.com/problems/valid-anagram/)
 * [Two sum](https://leetcode.com/problems/two-sum/)
-
-Recursion / dynamic programming:
-
-* [Coin change](https://leetcode.com/problems/coin-change)
-  * Example phone screen: https://www.youtube.com/watch?v=HWW-jA6YjHk
-  * Solutions: [javascript](solutions/coin_change.js), [python](coin_change.py)
-* [Climbing stairs](https://leetcode.com/problems/climbing-stairs/)
 
 Trees:
 
@@ -54,3 +46,10 @@ Graphs:
 
 * [Evaluate division](https://leetcode.com/problems/evaluate-division/)
 * [Number of islands](https://leetcode.com/problems/number-of-islands/)
+
+Recursion / dynamic programming:
+
+* [Coin change](https://leetcode.com/problems/coin-change)
+  * Example phone screen: https://www.youtube.com/watch?v=HWW-jA6YjHk
+  * Solutions: [javascript](solutions/coin_change.js), [python](coin_change.py)
+* [Climbing stairs](https://leetcode.com/problems/climbing-stairs/)

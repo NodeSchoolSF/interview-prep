@@ -20,9 +20,9 @@ Cover it.
 
 Go through how big-O applies to a real-life leetcode question. Implement both solutions and use online judge to show how O(n^2) exceeds time limit.
 
-**After going through Valid Anagram, have students do a real problem: "contains duplicate" and "find common characters".**
+**After going through Valid Anagram, have students do a real problem: "contains duplicate", through collaborative pairing.**
 
-Alternate between illustrating a concept via a problem, and having people solve a related problem.
+**After this, alternate between illustrating a concept via a problem, and having people solve a related problem. After the first collaborative pairing, can try to have them do a simulated interviewer/interviewee alternation.**
 
 Concepts and problems:
 
