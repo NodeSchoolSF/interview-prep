@@ -60,9 +60,12 @@ function isAnagram(source, target) {
 
 The big O runtime is O(n). We make 5 linear O(n) passes. The actual runtime is now 60ms, now faster than 96% of other JS solutions.
 
-Concepts: `TODO`
+Concepts:
 
-* Time and space, amortization, log(n) runtimes (e.g. binary search), multiple inputs (e.g. two arrays, array of strings of different lengths).
+* Applies to both runtime and space
+* Can involve "amortization", e.g. with hash tables implemented with dynamic arrays
+* Binary search is log(n)
+* Not always "n": can have multiple input sizes (e.g. two arrays, array of strings of different lengths)
 * Space usage with recursion is O(number of stack frames).
 * Sorting in general is O(n log n), but can be faster with specific inputs.
 
@@ -72,6 +75,8 @@ References:
 - [Coding Interview University](https://github.com/jwasham/coding-interview-university#algorithmic-complexity--big-o--asymptotic-analysis)
 
 ## Data structures
+
+I've highlighted some relevant Leetcode questions for each type of data structure.
 
 Essential:
 
@@ -113,6 +118,7 @@ Essential:
     - [Invert binary tree](https://leetcode.com/problems/invert-binary-tree/)
 - **Graphs**
   - **Depth-first search (DFS)**: explore a branch fully before going to other neighbors. Simpler than BFS. Can be implemented recursively, or with a stack.
+    - [Evaluate division](https://leetcode.com/problems/evaluate-division/)
     - [Number of islands](https://leetcode.com/problems/number-of-islands/)
     - [N-queens](https://leetcode.com/problems/n-queens/)
   - **Breadth-first search (BFS)**: visit all neighbors before going to any deeper neighbors. Can be used to find shortest path. Uses a queue.
@@ -148,6 +154,7 @@ Less common:
   - [Container with most water](https://leetcode.com/problems/container-with-most-water/)
 - **Recursion**
   - Recursion is a very natural approach to tree problems.
+  - Concepts: recursion helpers
 - Dynamic programming
   - If a brute force solution isn't obvious, think about whether you could solve the problem if you knew the answer for a subset of the input.
   - [Coin change](https://leetcode.com/problems/coin-change/)
@@ -251,7 +258,7 @@ Let's try testing this. Take a look at [solutions/maximum_depth_of_binary_tree.j
 
 **Depth-first search**
 
-`TODO`
+`TODO`: number of islands
 
 **Graphs**
 

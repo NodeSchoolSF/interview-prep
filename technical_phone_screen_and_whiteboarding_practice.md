@@ -4,7 +4,7 @@
 
 To see how a real phone screen can play out, you can watch a recording of someone solving [missing list item](https://www.youtube.com/watch?v=cdCeU8DJvPM) well.
 
-When I'm solving a Leetcode problem, I'll code it in a JS file and run `node problem.js` to evaluate it. I'll console.log or assert some test cases at the bottom to check the functionality. See some of the [solutions](/solutions) for examples of this.
+When I'm solving a Leetcode problem, I'll code it in a JS file and run `node problem.js` to evaluate it. I'll console.log some test cases at the bottom to verify that the solution is correct. See some of the [solutions](/solutions) for examples of this.
 
 Some useful posts on how to approach a fresh problem:
 
@@ -46,7 +46,7 @@ More difficult:
   * Solutions: [javascript](solutions/coin_change.js), [python](coin_change.py)
 * [Climbing stairs](https://leetcode.com/problems/climbing-stairs/)
 
-Tree:
+Trees:
 
 * [Maximum depth of binary tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)
 * [Invert binary tree](https://leetcode.com/problems/invert-binary-tree/)
