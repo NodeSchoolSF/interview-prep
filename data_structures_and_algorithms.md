@@ -14,7 +14,7 @@ It will also be useful to have a free account on [Leetcode](https://leetcode.com
 
 Big O characterizes (1) how long a function takes to run, or (2) how much memory/space the function uses, as the size of its input increases.
 
-![big o graph](assets/big-o-graph.png)
+<img width="400" src="assets/big-o-graph.png" />
 
 We can look at the [Valid Anagram](https://leetcode.com/problems/valid-anagram/) problem as an example with a slower naive solution, but a better O(n) solution.
 
@@ -69,7 +69,10 @@ function isAnagram(source, target) {
 }
 ```
 
-The big O runtime is O(n). We make 5 linear O(n) passes. If we submit it, the runtime has been improved from before.
+The big O runtime is O(n) because we make 5 sets of O(n) computations. If we submit it in Leetcode, we can see that the runtime has been improved from the previous solution.
+
+Let's group up into pairs and work together to solve [Contains duplicate](https://leetcode.com/problems/contains-duplicate), and try to get a solution that passes the Leetcode online judge.
+
 
 Concepts:
 
@@ -177,7 +180,7 @@ Less common:
   - Sometimes, you can find an efficient implementation by combining existing data structures, or having multiple of the same data structure. A well-known example is to [combine a hashtable and linked list to build an LRU cache](https://leetcode.com/problems/lru-cache/).
 
 
-## Practice!
+## Applying concepts to real problems
 
 **Greedy algorithms**
 
@@ -189,7 +192,7 @@ How can we do better?
 
 Well, let's take a look at each time we see a new minimum stock value. Going forward, we no longer need to consider any values to the left of this new minimum - because any price difference to the right will strictly be better starting from this new minimum. This is a trademark of greedy algorithms - we don't need to "backtrack" and we can discard parts of the input. We should keep track of what the biggest price difference had been, though, in case it was higher.
 
-Let's illustrate this with some test cases:
+Let's illustrate this by simulating what happens with some test cases:
 
 ```js
 [5, 20, 4, 10, 3, 10]  // Biggest diff at beginning
@@ -233,9 +236,47 @@ You can run `node solutions/best_time_to_buy_and_sell_stock.js` to see how I set
 
 Big O analysis: we do an O(n) pass. We keep track of two variables, so O(1) storage.
 
-Note that a greedy approach doesn't always work. If we change the problem slightly and ask for the [Longest increasing subsequence](https://leetcode.com/problems/longest-increasing-subsequence/), we can no longer discard earlier inputs when we see new minimums, because they can still factor in going forward. It's important to recognize when you can use a greedy approach, and when you can't.
+This demonstrates a "greedy algorithm", where we can go from O(n^2) to O(n) runtime by having an insight that allows us to make a single pass through the input. Note that a greedy approach doesn't always work. If we change the problem slightly and ask for the [Longest increasing subsequence](https://leetcode.com/problems/longest-increasing-subsequence/), we can no longer discard earlier inputs when we see new minimums, because they can still factor in going forward. It's important to recognize when you can use a greedy approach, and when you can't.
 
 **Recursion and trees**
+
+Trees are represented by "nodes" which can have "children".
+
+<img width="400" src="assets/binary-tree.png" />
+
+In code, this tree could be represented as:
+
+```js
+function buildTree() {
+  const n1 = {
+    value: 2,
+    left: n7,
+    right: n5,
+  };
+
+  const n2 = {
+    value: 7,
+    left: n4,
+    right: n5,
+  };
+
+  const n3 = {
+    value: 5,
+    left: null,
+    right: n7,
+  };
+
+  const n4 = {
+    value: 2,
+    left: null,
+    right: null,
+  };
+
+  // ...and so on
+
+  return n1;  // The root node represents the whole tree
+}
+```
 
 Let's solve [Maximum depth of binary tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/). With a tree problem, always consider: if we solve the problem for the children of the root node, could we answer the question for the whole tree?
 

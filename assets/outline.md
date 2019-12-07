@@ -2,7 +2,7 @@
 
 Self intro.
 
-This will likely go until 5.
+There's enough content to cover the whole duration of Nodeschool - if you need to head out to use bathroom or work on something else, that's totally fine. Also we'll have a food break.
 
 Can interrupt with questions anytime.
 
@@ -22,7 +22,9 @@ Go through how big-O applies to a real-life leetcode question. Implement both so
 
 **After going through Valid Anagram, have students do a real problem: "contains duplicate", through collaborative pairing.**
 
-**After this, alternate between illustrating a concept via a problem, and having people solve a related problem. After the first collaborative pairing, can try to have them do a simulated interviewer/interviewee alternation.**
+**After this, alternate between illustrating a concept via a problem, and having people solve a related problem.**
+
+**After the first collaborative pairing, ask if people would prefer trying a more "realistic" interviewer/interviewee scenario, or if they prefer to work together.**
 
 Concepts and problems:
 
@@ -47,7 +49,7 @@ Go over solutions (**TODO**: does this mean they should be fixed instead of from
 
 Give link to Github repo: https://github.com/NodeSchoolSF/interview-prep
 
-Ask for feedback: http://bit.ly/nodeschool-interview-prep-survey
+Feedback: http://bit.ly/nodeschool-interview-prep-survey
 
 Get in touch at iqnivek@gmail.com
 
