@@ -248,33 +248,41 @@ In code, this tree could be represented as:
 
 ```js
 function buildTree() {
-  const n1 = {
+  return {
+    // Root node: 2
     value: 2,
-    left: n7,
-    right: n5,
+    left: {
+      // Node with value 7
+      value: 7,
+      left: {
+        // Node with value 2, a "leaf" node
+        value: 2,
+        left: null,
+        right: null,
+      },
+      right: {
+        // Node with value 6
+        value: 6,
+        // ...children 5 and 11...
+      },
+    },
+    right: {
+      // Node with value 5
+      value: 5,
+      left: null,
+      right: {
+        // Node with value 9
+        value: 9,
+        left: {
+          // Leaf node with value 4
+          value: 4,
+          left: null,
+          right: null,
+        },
+        right: null,
+      }
+    }
   };
-
-  const n2 = {
-    value: 7,
-    left: n4,
-    right: n5,
-  };
-
-  const n3 = {
-    value: 5,
-    left: null,
-    right: n7,
-  };
-
-  const n4 = {
-    value: 2,
-    left: null,
-    right: null,
-  };
-
-  // ...and so on
-
-  return n1;  // The root node represents the whole tree
 }
 ```
 
@@ -285,7 +293,8 @@ Suppose we know that the left child of a tree has max depth 5, and right child h
 Let's code it up:
 
 ```js
-// Leetcode's definition of a tree node
+// Leetcode's definition of a tree node. Just like a plain object,
+// but implemented as a class instead.
 function TreeNode(val) {
   this.val = val;
   this.left = null;
