@@ -50,4 +50,6 @@ Give link to Github repo: https://github.com/NodeSchoolSF/interview-prep
 
 Ask for feedback: https://docs.google.com/forms/d/e/1FAIpQLSdU8pLsq7MGZJ1SBw17caceb5m6iO-SLCabR3Dn5skEiHF5FQ/viewform?usp=sf_link
 
+Get in touch at iqnivek@gmail.com
+
 Workshop is over, but people can ask questions or get advice.

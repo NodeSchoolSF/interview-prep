@@ -1,5 +1,12 @@
 # Data structures and algorithms
 
+It'll be useful to install node and to [clone this repo](https://github.com/NodeSchoolSF/interview-prep) to run some of the code interactively:
+
+```bash
+brew install node
+git clone git@github.com:NodeSchoolSF/interview-prep.git
+```
+
 ## Big O analysis
 
 This is the conceptual framework that drives many algorithms questions, with the implicit understanding that you're optimizing an algorithm for efficient big-O runtime or space (usually runtime).
@@ -262,7 +269,48 @@ Let's try testing this. Take a look at [solutions/maximum_depth_of_binary_tree.j
 
 **Graphs**
 
-`TODO`
+Suppose we have a graph, represented by a hash table mapping from nodes to neighbors:
+
+```js
+const testGraph = {
+  1: [2, 3],
+  2: [4],
+  4: [1, 6],
+  6: [],
+}
+```
+
+Let's do a depth-first search of this graph and look for the node "6":
+
+```js
+function dfs(graph, node, targetNode, visitedNodes) {
+  if (node == null) {
+    return false;
+  }
+
+  // Don't revisit a node that has already been visited
+  if (visitedNodes.includes(node)) {
+    return false;
+  }
+
+  // Mark node as visited
+  visitedNodes.push(node);
+
+  // Check if targetNode is found
+  if (node === targetNode) {
+    return true;
+  }
+
+  // Recursively do depth-first search on each of the node's neighbors.
+  // If any of the neighbors finds the node, then return true (using .some)
+  const neighbors = graph[node] || [];
+  return neighbors.some((neighbor) => {
+    return dfs(graph, neighbor, targetNode, visitedNodes);
+  });
+}
+```
+
+Let's try it out. Run `node algorithms/depth_first_search.js`.
 
 
 ## References
