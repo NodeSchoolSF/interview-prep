@@ -262,12 +262,7 @@ function maxDepth(node) {
 
 Let's try testing this. Take a look at [solutions/maximum_depth_of_binary_tree.js](solutions/maximum_depth_of_binary_tree.js).
 
-
-**Depth-first search**
-
-`TODO`: number of islands
-
-**Graphs**
+**Graphs and depth-first search**
 
 Suppose we have a graph, represented by a hash table mapping from nodes to neighbors:
 
@@ -301,12 +296,18 @@ function dfs(graph, node, targetNode, visitedNodes) {
     return true;
   }
 
+  // Get the neighbors of the node
+  const neighbors = graph[node] || [];
+
   // Recursively do depth-first search on each of the node's neighbors.
   // If any of the neighbors finds the node, then return true (using .some)
-  const neighbors = graph[node] || [];
-  return neighbors.some((neighbor) => {
-    return dfs(graph, neighbor, targetNode, visitedNodes);
-  });
+  for (let i = 0; i < neighbors.length; i++) {
+    const found = dfs(graph, neighbors[i], targetNode, visitedNodes);
+    if (found) {
+      return true;
+    }
+  }
+  return false;
 }
 ```
 

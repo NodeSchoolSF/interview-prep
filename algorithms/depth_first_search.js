@@ -7,7 +7,6 @@ const testGraph = {
   6: [],
 }
 
-
 function dfs(graph, node, targetNode, visitedNodes) {
   if (node == null) {
     return false;
@@ -25,13 +24,19 @@ function dfs(graph, node, targetNode, visitedNodes) {
   if (node === targetNode) {
     return true;
   }
-  
+
+  // Get the neighbors of the node
+  const neighbors = graph[node] || [];
+
   // Recursively do depth-first search on each of the node's neighbors.
   // If any of the neighbors finds the node, then return true (using .some)
-  const neighbors = graph[node] || [];
-  return neighbors.some((neighbor) => {
-    return dfs(graph, neighbor, targetNode, visitedNodes);
-  });
+  for (let i = 0; i < neighbors.length; i++) {
+    const found = dfs(graph, neighbors[i], targetNode, visitedNodes);
+    if (found) {
+      return true;
+    }
+  }
+  return false;
 }
 
 const targets = [2, 6, 100];
