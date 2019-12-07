@@ -16,7 +16,7 @@ Big O characterizes (1) how long a function takes to run, or (2) how much memory
 
 <img width="400" src="assets/big-o-graph.png" />
 
-We can look at the [Valid Anagram](https://leetcode.com/problems/valid-anagram/) problem as an example with a slower naive solution, but a better O(n) solution.
+To make things concrete, let's analyze the big O of a solution to the [Valid Anagram](https://leetcode.com/problems/valid-anagram/) problem. First, let's consider a solution where we sort the strings:
 
 ```js
 function isAnagram(source, target) {
