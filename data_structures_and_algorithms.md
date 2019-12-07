@@ -247,42 +247,40 @@ Trees are represented by "nodes" which can have "children".
 In code, this tree could be represented as:
 
 ```js
-function buildTree() {
-  return {
-    // Root node: 2
-    value: 2,
+{
+  // Root node: 2
+  value: 2,
+  left: {
+    // Node with value 7
+    value: 7,
     left: {
-      // Node with value 7
-      value: 7,
+      // Node with value 2, a "leaf" node
+      value: 2,
+      left: null,
+      right: null,
+    },
+    right: {
+      // Node with value 6
+      value: 6,
+      // ...children 5 and 11...
+    },
+  },
+  right: {
+    // Node with value 5
+    value: 5,
+    left: null,
+    right: {
+      // Node with value 9
+      value: 9,
       left: {
-        // Node with value 2, a "leaf" node
-        value: 2,
+        // Leaf node with value 4
+        value: 4,
         left: null,
         right: null,
       },
-      right: {
-        // Node with value 6
-        value: 6,
-        // ...children 5 and 11...
-      },
-    },
-    right: {
-      // Node with value 5
-      value: 5,
-      left: null,
-      right: {
-        // Node with value 9
-        value: 9,
-        left: {
-          // Leaf node with value 4
-          value: 4,
-          left: null,
-          right: null,
-        },
-        right: null,
-      }
+      right: null,
     }
-  };
+  }
 }
 ```
 
