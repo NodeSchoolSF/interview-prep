@@ -17,7 +17,7 @@ See ["Prep for behavioral questions"](interview_prep.md#prep-for-behavioral-ques
 
 This is usually a 1 hour phone call where an engineer or engineering manager asks you technical questions to evaluate whether to continue with the process.
 
-You may be asked to explain technical concepts like "what is the event loop in javascript?". See the "Know your language in and out" section in [interview_prep.md](interview_prep.md) for some more examples.
+You may be asked to explain technical concepts like "what is the event loop in javascript?". See ["Know your language in and out"](interview_prep.md#know-your-language-in-and-out) for some more examples.
 
 Many companies will now do a remote coding challenge where they give you a question, and you code it up in a collaborative editor like [CoderPad](https://coderpad.io/) (which can run your code) or [CodePen](https://codepen.io) (for front-end stuff). You'll ideally be able to explain your thought process as you're coding.
 
