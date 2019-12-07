@@ -91,8 +91,9 @@ Common behavioral questions:
 
 - **Tell me about yourself.** [Here's a good reference](https://yangshun.github.io/tech-interview-handbook/self-introduction) on answering this self-introduction question.
 - **Why are you interested in working at this company?** Take a look at the company's product, website, job listing, and think about what resonates with you and what you're genuinely interested in.
+- **What are you looking for in your next job?**
+- **Why did you leave your previous company?**
 - **Talk about a challenging project you worked on.** You'll want to be able to give a solid answer — and it really helps if you have either a recent work project or a side project that you can talk about in depth (see the "Have a good side project" section for more on this). The interviewer is trying to evaluate whether you can talk coherently about a complex topic, at both a high level and a technical level. Clear communication about technical work is extremely important - you'll need to talk to PMs, stakeholders, designers, and other engineers all the time at a startup.
-- **What are you looking for in your next position?**
 - [Here's a list of more behavioral questions from Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/behavioral-questions/)
 
 ## Prep questions to ask interviewers

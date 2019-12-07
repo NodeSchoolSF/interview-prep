@@ -231,7 +231,7 @@ You can run `node solutions/best_time_to_buy_and_sell_stock.js` to see how I set
 
 Big O analysis: we do an O(n) pass. We keep track of two variables, so O(1) storage.
 
-Note that a greedy approach doesn't always work. If we change the problem slightly and ask for the [Longest increasing subsequence](https://leetcode.com/problems/longest-increasing-subsequence/), we can no longer discard earlier inputs when we see new minimums, because they can still factor in going forward.
+Note that a greedy approach doesn't always work. If we change the problem slightly and ask for the [Longest increasing subsequence](https://leetcode.com/problems/longest-increasing-subsequence/), we can no longer discard earlier inputs when we see new minimums, because they can still factor in going forward. It's important to recognize when you can use a greedy approach, and when you can't.
 
 **Recursion and trees**
 
