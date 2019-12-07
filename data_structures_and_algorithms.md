@@ -188,6 +188,19 @@ Let's go through [Best time to buy and sell stock](https://leetcode.com/problems
 
 There's a brute force O(n^2) solution where you compare every 2 elements and record the price difference. We get O(n^2) because we iterate through n + (n - 1) + (n - 2) + ... + 1 pairs, which sums to (n + 1) * (n / 2) = (n^2 + n) / 2, which is proportional to n^2.
 
+```js
+function maxProfit(prices) {
+  let maxProfitValue = 0;
+  for (let i = 0; i < prices.length; i++) {
+    for (let j = i + 1; j < prices.length; j++) {
+      const profit = prices[j] - prices[i];
+      maxProfitValue = Math.max(maxProfitValue, profit);
+    }
+  }
+  return maxProfitValue;
+}
+```
+
 How can we do better?
 
 Well, let's take a look at each time we see a new minimum stock value. Going forward, we no longer need to consider any values to the left of this new minimum - because any price difference to the right will strictly be better starting from this new minimum. This is a trademark of greedy algorithms - we don't need to "backtrack" and we can discard parts of the input. We should keep track of what the biggest price difference had been, though, in case it was higher.
@@ -208,7 +221,7 @@ Okay, now let's code it up:
 
 ```js
 function maxProfit(prices) {
-  let maxProfit = 0;
+  let maxProfitValue = 0;
   let minPrice = prices[0];
 
   prices.forEach((price) => {
@@ -217,7 +230,7 @@ function maxProfit(prices) {
       minPrice = price;
     } else {
       // Track whether profit increases against current minimum
-      maxProfit = Math.max(maxProfit, price - minPrice);
+      maxProfitValue = Math.max(maxProfit, price - minPrice);
     }
   });
 
