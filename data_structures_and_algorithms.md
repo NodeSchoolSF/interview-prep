@@ -125,7 +125,7 @@ Essential:
     - [Binary tree level order traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
   - Can represent with adjacency list: `class Graph { nodes: GraphNode[] }; class GraphNode { value: any, neighbors: GraphNode[] }`
   - Can represent simply using a hash table that maps nodes (keys) to neighbors (value array): `{ 0: [1, 2], 2: [3, 5], ... }`
-  - Have intuition on what can be translated into a graph problem (e.g. a maze)
+  - Have intuition on what can be abstractly translated into a graph problem (e.g. a maze)
   - References:
     - Cracking the Coding Interview, Ch. 4
     - [Tech interview handbook](https://yangshun.github.io/tech-interview-handbook/algorithms/graph)

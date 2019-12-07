@@ -14,16 +14,15 @@ Some useful posts on how to approach a fresh problem:
 
 ## Paired practice
 
-Pair up into groups of 2. Each person picks one of the questions to work on. One person go first and try to solve the problem on their computer (or on whiteboard, if they want to practice that) while the other person listens.
+I suggest pairing up into groups of 2 with your neighbor. Each person picks one of the questions to work on. One person go first and try to solve the problem on their computer (or on whiteboard, if they want to practice that) while the other person listens.
 
-While you're listening to someone's solution, keep the following in mind:
+If you're listening as your partner is solving a problem, keep the following in mind:
 
 * Did they ask clarifying questions before implementing?
 * Do they explain their thought process as they're working?
-* Is the solution efficient (in runtime)?
-* Ask them the big-O for runtime and space.
 * Do they come up with good test cases to try out?
 * Try running it on Leetcode. Are there bugs? Does it run and pass the Leetcode test cases?
+* Is the solution efficient (in big O runtime)? Ask them what the big-O for runtime and space are.
 
 ## Questions
 
@@ -39,7 +38,7 @@ Warm-up:
 * [Valid anagram](https://leetcode.com/problems/valid-anagram/)
 * [Two sum](https://leetcode.com/problems/two-sum/)
 
-More difficult:
+Recursion / dynamic programming:
 
 * [Coin change](https://leetcode.com/problems/coin-change)
   * Example phone screen: https://www.youtube.com/watch?v=HWW-jA6YjHk
@@ -50,3 +49,8 @@ Trees:
 
 * [Maximum depth of binary tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)
 * [Invert binary tree](https://leetcode.com/problems/invert-binary-tree/)
+
+Graphs:
+
+* [Evaluate division](https://leetcode.com/problems/evaluate-division/)
+* [Number of islands](https://leetcode.com/problems/number-of-islands/)
