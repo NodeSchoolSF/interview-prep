@@ -10,7 +10,8 @@ This guide is focused on a typical CS/algorithms-based interview. A plan of atta
 - Practice whiteboarding
 - Know your language in and out
 - Do your research on companies
-- Prep for behavioral questions & questions to ask interviewers
+- Prep for behavioral questions
+- Prep questions to ask interviewers
 - Have a good side project
 
 ## Work through good interview prep resources
@@ -82,7 +83,7 @@ If you're interested in working at a startup, here are a few ways to find them:
 - [Hired](https://hired.com/)
 
 
-## Prep for behavioral questions & questions to ask interviewers
+## Prep for behavioral questions
 
 **Behavioral questions** are non-technical, verbal questions. The interviewer is trying to evaluate whether you can communicate effectively and clearly about your experience and motivations. [Here's an example of using the STAR framework to answer a behavioral question well](https://yangshun.github.io/tech-interview-handbook/star-format).
 
@@ -94,7 +95,9 @@ Common behavioral questions:
 - **What are you looking for in your next position?**
 - [Here's a list of more behavioral questions from Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/behavioral-questions/)
 
-**Questions to ask interviewers**: you'll also want to be prepared to have some questions for each interviewer (which can end up being a lot of questions at an onsite with 5 interviewers). The questions you ask can have an impact! Interviewers may use them to judge what your priorities are and whether you're interested in the mission. Here's a [list of possible questions to ask](https://yangshun.github.io/tech-interview-handbook/questions-to-ask) to get started, but I recommend thinking up your own as well.
+## Prep questions to ask interviewers
+
+You'll also want to be prepared to have some questions for each interviewer (which can end up being a lot of questions at an onsite with 5 interviewers). The questions you ask can have an impact! Interviewers may use them to judge what your priorities are and whether you're interested in the mission. Here's a [list of possible questions to ask](https://yangshun.github.io/tech-interview-handbook/questions-to-ask) to get started, but I recommend thinking up your own as well.
 
 
 ## Have a good side project

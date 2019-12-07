@@ -2,7 +2,7 @@
 
 Interview processes vary widely; [here are some interview formats](https://yangshun.github.io/tech-interview-handbook/interview-formats#formats-of-famous-companies) for specific companies. In my experience, these are common phases of the interview process for startups:
 
-1. Initial phone call with recruiter or hiring manager
+1. Initial phone call with recruiter (or hiring manager or engineer)
 2. Technical phone screen
 3. Take-home challenge (possibly)
 4. On-site interview
@@ -11,7 +11,7 @@ Interview processes vary widely; [here are some interview formats](https://yangs
 
 This is to evaluate whether continuing the process makes sense for both parties. They'll ask you about your background and experience. Enthusiasm for the company and mission and being well-spoken is often useful here.
 
-See the earlier "Prep for behavioral questions" section for possible questions here.
+See ["Prep for behavioral questions"](interview_prep.md#prep-for-behavioral-questions) for possible questions here.
 
 ## 2. The technical phone screen
 

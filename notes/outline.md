@@ -2,6 +2,8 @@
 
 Self intro.
 
+This will likely go until 5.
+
 Programming interviews are notoriously challenging and can require a great depth of knowledge. We only have 2-3 hours, so this will be more of an outline or a map - in many cases I'll point you in (hopefully) the right direction, but I won't cover the topic in depth.
 
 ## Interview prep
