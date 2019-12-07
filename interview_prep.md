@@ -129,4 +129,4 @@ A side project is always easier if it's about something you care about. What are
 
 ## Next section
 
-[**Next: The interview process**](the_interview_process.md)
+[**Next: Data structures and algorithms**](data_structures_and_algorithms.md)

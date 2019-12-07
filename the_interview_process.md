@@ -49,4 +49,4 @@ General advice:
 
 ## Next section
 
-[**Next: Data structures and algorithms**](data_structures_and_algorithms.md)
+[**Next: Interview prep**](interview_prep.md)
