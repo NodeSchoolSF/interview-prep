@@ -141,11 +141,12 @@ Less common:
     - [Minimum window substring](https://leetcode.com/problems/minimum-window-substring/)
   - [Best time to buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
   - [Container with most water](https://leetcode.com/problems/container-with-most-water/)
-- **Recursion and finding subproblems**
+- **Recursion**
+  - Recursion is a very natural approach to tree problems.
+- Dynamic programming
   - If a brute force solution isn't obvious, think about whether you could solve the problem if you knew the answer for a subset of the input.
   - [Coin change](https://leetcode.com/problems/coin-change/)
   - [Climbing stairs](https://leetcode.com/problems/climbing-stairs/)
-- Dynamic programming
 - Preprocessing
   - You sometimes want to sort the input, or otherwise process it in a way that it'll make the main logic more efficient.
   - [Non-overlapping intervals](https://leetcode.com/problems/non-overlapping-intervals/)
@@ -205,13 +206,49 @@ Let's also think about some more edge cases to test:
 
 You can run `node solutions/best_time_to_buy_and_sell_stock.js` to see how I set up testing this function out locally. We can also now submit the solution on Leetcode.
 
+Big O analysis: we do an O(n) pass. We keep track of two variables, so O(1) storage.
+
 Note that a greedy approach doesn't always work. If we change the problem slightly and ask for the [Longest increasing subsequence](https://leetcode.com/problems/longest-increasing-subsequence/), we can no longer discard earlier inputs when we see new minimums, because they can still factor in going forward.
 
-**Recursion**
+**Recursion and trees**
+
+Let's solve [Maximum depth of binary tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/). With a tree problem, always consider: if we solve the problem for the children of the root node, could we answer the question for the whole tree?
+
+Suppose we know that the left child of a tree has max depth 5, and right child has max depth 7. What's the max depth of the tree?
+
+Let's code it up:
+
+```js
+// Leetcode's definition of a tree node
+function TreeNode(val) {
+  this.val = val;
+  this.left = null;
+  this.right = null;
+}
+
+function maxDepth(node) {
+  // Base case
+  if (!node) {
+    return 0;
+  }
+
+  // Use recursion - call the same function on the two child nodes.
+  // Recursion will eventually end because we're calling on successively smaller inputs.
+  const leftDepth = maxDepth(node.left);
+  const rightDepth = maxDepth(node.right);
+
+  return Math.max(leftDepth, rightDepth) + 1;  // Add 1 to the max child depth
+}
+```
+
+Let's try testing this. Take a look at [solutions/maximum_depth_of_binary_tree.js](solutions/maximum_depth_of_binary_tree.js).
+
+
+**Depth-first search**
 
 `TODO`
 
-**Trees and graphs**
+**Graphs**
 
 `TODO`
 
