@@ -35,6 +35,7 @@ Warm-up:
 * [Find common characters](https://leetcode.com/problems/find-common-characters)
 * [Reverse string](https://leetcode.com/problems/reverse-string)
   * Solutions: [javascript](solutions/reverse_string.js)
+* [Meeting rooms](https://leetcode.com/problems/meeting-rooms/)
 * [Two sum](https://leetcode.com/problems/two-sum/)
 
 Trees:
