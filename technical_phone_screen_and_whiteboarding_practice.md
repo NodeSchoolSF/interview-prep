@@ -41,6 +41,7 @@ Warm-up:
 Trees:
 
 * [Maximum depth of binary tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)
+* [Same tree](https://leetcode.com/problems/same-tree/)
 * [Invert binary tree](https://leetcode.com/problems/invert-binary-tree/)
 
 Graphs:
