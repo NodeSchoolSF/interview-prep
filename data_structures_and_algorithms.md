@@ -334,6 +334,35 @@ function maxDepth(node) {
 
 Let's try testing this. Take a look at [solutions/maximum_depth_of_binary_tree.js](solutions/maximum_depth_of_binary_tree.js).
 
+**Tree traversal**
+
+How do we list out all the nodes in a tree?
+
+Let's think about it recursively. Assume we can list out the left and right subtrees - now what would we need to do to list the whole tree?
+
+Let's solve [Binary tree inorder traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/).
+
+```js
+function inorderTraversal(root) {
+  const visited = [];
+  traverse(root, visited);
+  return visited;
+};
+
+function traverse(node, visited) {
+  if (!node) {
+    return;
+  }
+  traverse(node.left, visited);
+  visited.push(node.val);
+  traverse(node.right, visited);
+}
+```
+
+We can simulate this code on some example trees, and keep track of what `visited` looks like at each step.
+
+This is an example of depth-first traversal, which is an important concept in both trees and graphs.
+
 **Graphs and depth-first search**
 
 Suppose we have a graph, represented by a hash table mapping from nodes to neighbors:
@@ -388,6 +417,8 @@ Let's try it out. Run `node algorithms/depth_first_search.js`.
 **Graph applications**
 
 Graphs can be represented in a wide number of ways (adjacency lists, list of edges, and 2D matrixes), and can also appear in very abstract representations. If a set of items relate to each other, it can probably be represented as a graph (e.g. plane tickets from various cities).
+
+Let's solve a real problem using graphs and depth-first search: [Course schedule](https://leetcode.com/problems/course-schedule/).
 
 
 ## References
