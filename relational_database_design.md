@@ -8,6 +8,7 @@ Some database design problems:
 
 Concepts:
 
+* Joins
 * One-to-many design
 * Many-to-many join tables
 * Indexes, unique indexes

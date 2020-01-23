@@ -10,9 +10,10 @@ This workshop is geared towards helping bootcamp grads and self-taught learners 
 
 This is an overview of the content that will be covered:
 
-1. [**The interview process**](the_interview_process.md) [20 min] - the different stages of an interview process, including the technical phone screen, take-home challenges, and the onsite.
-2. [**How to effectively interview prep**](interview_prep.md) [20 min] - recommended prep resources, strategies for solving difficult problems, thinking out loud, doing your research, behavioral questions, and side projects.
-3. [**Data structures and algorithms**](data_structures_and_algorithms.md) [60 min]: A rundown of CS concepts, using practical problems on Leetcode to demonstrate each one. Big O notation (runtime and space). Essential data structures like strings, arrays, stacks, queues, hash tables, trees, graphs, and depth-first search and breadth-first search. Greedy algorithms, recursion, dynamic programming, etc.
-4. [**Technical phone screen and whiteboarding practice**](technical_phone_screen_and_whiteboarding_practice.md) [90 min]: Folks will group into pairs and each solve a different problem, taking turns being interviewer and interviewee. I'll review the answers, showing how I would approach the problem.
+1. [**The interview process**](the_interview_process.md) [10 min] - the different stages of an interview process, including the technical phone screen, take-home challenges, and the onsite.
+2. [**How to effectively interview prep**](interview_prep.md) [10 min] - recommended prep resources, strategies for solving difficult problems, thinking out loud, doing your research, behavioral questions, and side projects.
+3. [**Data structures and algorithms**](data_structures_and_algorithms.md) [30+ min]: A rundown of CS concepts, using practical problems on Leetcode to demonstrate each one. Big O notation (runtime and space). Essential data structures like strings, arrays, stacks, queues, hash tables, trees, graphs, and depth-first search and breadth-first search. Greedy algorithms, recursion, dynamic programming, etc.
+4. [**Technical phone screen and whiteboarding practice**](technical_phone_screen_and_whiteboarding_practice.md) [60+ min]: Folks will group into pairs and each solve a different problem, taking turns being interviewer and interviewee. I'll review the answers, showing how I would approach the problem.
+5. [**Relational database modeling**](relational_database_modeling) [20 min]: Optional session covering how to represent entities and relationships in a database (joins, one-to-many, many-to-many, indexes, etc.).
 
 Ready to get started? Start reading about [the interview process](the_interview_process.md).
