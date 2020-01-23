@@ -122,7 +122,7 @@ Essential:
     - [Valid parentheses](https://leetcode.com/problems/valid-parentheses/)
 - **Trees**
   - Big O: find, insert, delete `TODO`
-  - Concepts: binary tree traversal (in-order, pre-order, post-order)
+  - Concepts: binary tree traversal (in-order, pre-order, post-order), binary search
   - Can implement as `class TreeNode { value: any, children: TreeNode[] }`, or `class TreeNode { value: any, left: TreeNode | null, right: TreeNode | null }` for binary trees. Can also implement as an array.
   - References:
     - Cracking the Coding Interview, Ch. 4
@@ -368,9 +368,13 @@ This is an example of depth-first traversal, which is an important concept in bo
 
 **Binary search trees (BSTs)**
 
+Let's try solving [Search in a binary search tree](https://leetcode.com/problems/search-in-a-binary-search-tree/).
+
 Binary search trees are a special type of binary tree, where all the values in a node's left subtree are lower than the node's value, and all the values in the right are higher.
 
-This allows us to do binary search. We can always find a value in the tree with a number of comparisons equal to the "depth" of the tree. If we have n nodes in the tree, how many comparisons is that?
+This allows us to do binary search. Let's simulate this on a tree, e.g. [4, 2, 7, 1, 3].
+
+What's the big-O runtime of binary search? We can always find a value in the tree with a number of comparisons equal to the "depth" of the tree. If we have n nodes in the tree, how many comparisons is that?
 
 To figure this out, let's look at how many nodes we can fill at each possible tree depth.
 
