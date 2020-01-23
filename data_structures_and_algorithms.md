@@ -340,7 +340,7 @@ How do we list out all the nodes in a tree?
 
 Let's think about it recursively. Assume we can list out the left and right subtrees - now what would we need to do to list the whole tree?
 
-Let's solve [Binary tree inorder traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/).
+Let's solve [Binary tree inorder traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/), without worrying about the "binary tree" or "inorder" parts of it yet.
 
 ```js
 function inorderTraversal(root) {
@@ -350,6 +350,7 @@ function inorderTraversal(root) {
 };
 
 function traverse(node, visited) {
+  // Handle base case - nodes with no children.
   if (!node) {
     return;
   }
