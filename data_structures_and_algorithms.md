@@ -139,9 +139,10 @@ Essential:
     - [Binary tree level order traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
   - **Detecting cycles**
     - [Course schedule](https://leetcode.com/problems/course-schedule/)
-  - Can represent with adjacency list: `class Graph { nodes: GraphNode[] }; class GraphNode { value: any, neighbors: GraphNode[] }`
-  - Can represent simply using a hash table that maps nodes (keys) to neighbors (value array): `{ 0: [1, 2], 2: [3, 5], ... }`
-  - Have intuition on what can be abstractly translated into a graph problem (e.g. a maze)
+  - There are many ways to represent a graph in code. It's good to develop intuition on what can be abstractly translated into a graph problem (e.g. a maze).
+    - Adjacency list (most common): can simply use a hash table that maps nodes (keys) to neighbors (value array): `{ 0: [1, 2], 2: [3, 5], ... }`
+    - List of edges (undirected graph): `[(0, 1), (0, 3), (1, 5), ...]`
+    - [2D matrixes](https://leetcode.com/problems/pacific-atlantic-water-flow/discuss/438276/Python-beats-98.-DFS-template-for-Matrix)
   - References:
     - Cracking the Coding Interview, Ch. 4
     - [Tech interview handbook](https://yangshun.github.io/tech-interview-handbook/algorithms/graph)
@@ -386,10 +387,7 @@ Let's try it out. Run `node algorithms/depth_first_search.js`.
 
 **Graph applications**
 
-Graphs can be represented in a wide number of ways.
-
-- Adjacency lists
-- Matrixes
+Graphs can be represented in a wide number of ways (adjacency lists, list of edges, and 2D matrixes), and can also appear in very abstract representations. If a set of items relate to each other, it can probably be represented as a graph (e.g. plane tickets from various cities).
 
 
 ## References
