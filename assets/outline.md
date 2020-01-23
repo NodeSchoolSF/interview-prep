@@ -37,13 +37,9 @@ Point to additional resources.
 
 ## Technical phone screen practice
 
-Arrange into pairs, and take turns (30 minutes each).
+If people have specific questions they want to ask me about interviews in general, they can ask during this time.
 
-Have one person pick a problem for the other person. They'll read the question verbally first and the "interviewee" codes it up (not on leetcode).
-
-If people don't want to do that, they can also pair on it instead of interview/interviewee. (can ask which format people would prefer)
-
-Go over solutions (**TODO**: does this mean they should be fixed instead of from a pool? maybe not). Go over what test cases I'd write.
+Go over solutions. Go over what test cases I'd write.
 
 ## Ending
 
