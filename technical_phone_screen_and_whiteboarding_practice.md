@@ -46,6 +46,7 @@ Trees:
 
 * [Maximum depth of binary tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)
 * [Same tree](https://leetcode.com/problems/same-tree/)
+* [Search in a binary search tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)
 * [Invert binary tree](https://leetcode.com/problems/invert-binary-tree/)
 
 Graphs:

@@ -334,6 +334,8 @@ function maxDepth(node) {
 
 Let's try testing this. Take a look at [solutions/maximum_depth_of_binary_tree.js](solutions/maximum_depth_of_binary_tree.js).
 
+After doing this, you can try implementing [Same tree](https://leetcode.com/problems/same-tree/) on your own.
+
 **Tree traversal**
 
 How do we list out all the nodes in a tree?
@@ -363,6 +365,24 @@ function traverse(node, visited) {
 We can simulate this code on some example trees, and keep track of what `visited` looks like at each step.
 
 This is an example of depth-first traversal, which is an important concept in both trees and graphs.
+
+**Binary search trees (BSTs)**
+
+Binary search trees are a special type of binary tree, where all the values in a node's left subtree are lower than the node's value, and all the values in the right are higher.
+
+This allows us to do binary search. We can always find a value in the tree with a number of comparisons equal to the "depth" of the tree. If we have n nodes in the tree, how many comparisons is that?
+
+To figure this out, let's look at how many nodes we can fill at each possible tree depth.
+
+| Depth | Max nodes |
+1 | 1
+2 | 3
+3 | 7
+4 | 15
+5 | 31
+6 | 63
+
+Can you see a pattern? `nodes = 2^depth - 1`. So you can also say `depth = log2(nodes + 1)`. The number of comparisons to find a node, or the depth, is therefore O(log n).
 
 **Graphs and depth-first search**
 
