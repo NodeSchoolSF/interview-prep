@@ -178,6 +178,8 @@ Less common:
   - [Non-overlapping intervals](https://leetcode.com/problems/non-overlapping-intervals/)
 - Combining data structures
   - Sometimes, you can find an efficient implementation by combining existing data structures, or having multiple of the same data structure. A well-known example is to [combine a hashtable and linked list to build an LRU cache](https://leetcode.com/problems/lru-cache/).
+- Intervals
+  - [See "merge intervals"](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
 
 
 ## Applying concepts to real problems

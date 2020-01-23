@@ -2,9 +2,11 @@
 
 ## Prep advice
 
-To see how a real phone screen can play out, you can watch a recording of someone solving [missing list item](https://www.youtube.com/watch?v=cdCeU8DJvPM) well.
+In my experience, companies now often offer the option of using a computer instead of writing code on the whiteboard, and also allow you to look things up online if needed. However, it's good to be ready to code on a whiteboard, since some interviewers may still ask you to do that.
 
-When I'm solving a Leetcode problem, I'll code it in a JS file and run `node problem.js` to evaluate it. I'll console.log some test cases at the bottom to verify that the solution is correct. See some of the [solutions](/solutions) for examples of this.
+When writing code on a computer, I recommend running and testing your code as quickly as possible, before you finish writing the functionality - this makes it so you don't have to run into a series of hard-to-debug issues later. When I'm solving a Leetcode problem, I'll code it in a JS file and run `node problem.js` to evaluate it. I'll console.log some test cases at the bottom to verify that the solution is correct. See some of the [solutions](/solutions) for examples of this.
+
+To see how a real phone screen can play out, you can watch a recording of someone solving [missing list item](https://www.youtube.com/watch?v=cdCeU8DJvPM) well.
 
 Some useful posts on how to approach a fresh problem:
 
@@ -14,7 +16,7 @@ Some useful posts on how to approach a fresh problem:
 
 ## Paired practice
 
-I suggest pairing up into groups of 2 with your neighbor. Each person picks one of the questions to work on. One person go first and try to solve the problem on their computer (or on whiteboard, if they want to practice that) while the other person listens.
+I suggest pairing up into groups of 2 with your neighbor. Each person picks one of the questions to work on. One person go first and try to solve the problem on their computer (or on whiteboard, if they want to practice that) while the other person listens. If you'd rather work together to solve the problem instead, that's good too - but I encourage both people to 
 
 If you're listening as your partner is solving a problem, keep the following in mind:
 
@@ -35,8 +37,7 @@ Warm-up:
 * [Find common characters](https://leetcode.com/problems/find-common-characters)
 * [Reverse string](https://leetcode.com/problems/reverse-string)
   * Solutions: [javascript](solutions/reverse_string.js)
-* [Meeting rooms](https://leetcode.com/problems/meeting-rooms/)
-* [Two sum](https://leetcode.com/problems/two-sum/)
+* [**Two sum**](https://leetcode.com/problems/two-sum/)
 
 Trees:
 
@@ -50,9 +51,24 @@ Graphs:
 * [Evaluate division](https://leetcode.com/problems/evaluate-division/)
 * [Number of islands](https://leetcode.com/problems/number-of-islands/)
 
+Intervals:
+
+* [Meeting rooms](https://leetcode.com/problems/meeting-rooms/)
+
+Hash tables:
+
+* [Design HashMap](https://leetcode.com/problems/design-hashmap/)
+* [Time based key value store](https://leetcode.com/problems/time-based-key-value-store/)
+
 Recursion / dynamic programming:
 
 * [Coin change](https://leetcode.com/problems/coin-change)
   * Example phone screen: https://www.youtube.com/watch?v=HWW-jA6YjHk
   * Solutions: [javascript](solutions/coin_change.js), [python](coin_change.py)
 * [Climbing stairs](https://leetcode.com/problems/climbing-stairs/)
+
+
+Once you feel comfortable with basic CS concepts, here are some curated problem lists that you can work through which teach the important problem solving concepts:
+
+* [**75 most useful Leetcode questions**](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions)
+* [Best practice questions from Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/best-practice-questions)
