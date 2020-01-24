@@ -258,7 +258,7 @@ This demonstrates a "greedy algorithm", where we can go from O(n^2) to O(n) runt
 
 **Recursion and trees**
 
-Trees are represented by "nodes" which can have "children".
+Trees are represented by "nodes" which can have "children", which are other nodes.
 
 <img width="400" src="assets/binary-tree.png" />
 
@@ -300,6 +300,17 @@ In code, this tree could be represented as:
     }
   }
 }
+```
+
+Why do we even care about trees? They're actually a very useful way to represent a lot of things - some of which you use every day. Programs that you write are also represented as trees under the hood, using abstract syntax trees (ASTs). When you write a webpage with HTML, the DOM is a tree:
+
+```html
+<div>
+  <p>My homepage</p>
+  <ul>
+    <li>Item 1</li>
+  </ul>
+</div>
 ```
 
 Let's solve [Maximum depth of binary tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/). With a tree problem, always consider: if we solve the problem for the children of the root node, could we answer the question for the whole tree?
@@ -445,6 +456,9 @@ Graphs can be represented in a wide number of ways (adjacency lists, list of edg
 
 Let's solve a real problem using graphs and depth-first search: [Course schedule](https://leetcode.com/problems/course-schedule/).
 
+**Breadth-first search with level-order traversal on a tree**
+
+We can illustrate how breadth first search works on a tree, by solving [Binary tree level order traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/).
 
 ## References
 
