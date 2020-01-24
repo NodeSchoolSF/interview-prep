@@ -1,13 +1,6 @@
 # Data structures and algorithms
 
-It'll be useful to install node and to [clone this repo](https://github.com/NodeSchoolSF/interview-prep) to run some of the code interactively:
-
-```bash
-brew install node
-git clone git@github.com:NodeSchoolSF/interview-prep.git
-```
-
-It will also be useful to have a free account on [Leetcode](https://leetcode.com/) so we can submit solutions to problems.
+I highly recommend creating a free account on [Leetcode](https://leetcode.com/) so you can can submit solutions to real problems.
 
 
 ## Big O analysis
@@ -454,7 +447,9 @@ Let's try it out. Run `node algorithms/depth_first_search.js`.
 
 Graphs can be represented in a wide number of ways (adjacency lists, list of edges, and 2D matrixes), and can also appear in very abstract representations. If a set of items relate to each other, it can probably be represented as a graph (e.g. plane tickets from various cities).
 
-Let's solve a real problem using graphs and depth-first search: [Course schedule](https://leetcode.com/problems/course-schedule/).
+Let's solve a real problem using graphs and depth-first search: [Course schedule](https://leetcode.com/problems/course-schedule/). Most DFS problems aren't actually as simple as looking for a value in the graph, though - DFS is simply a way to traverse the graph and solve problems.
+
+See solution at [solutions/course_schedule.js](solutions/course_schedule.js).
 
 **Breadth-first search with level-order traversal on a tree**
 
