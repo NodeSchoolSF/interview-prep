@@ -80,4 +80,4 @@ Once you feel comfortable with basic CS concepts, here are some curated problem 
 
 ## Next section
 
-[**Next: Relational database design**](relational_database_design.md)
+[**Next: Relational databases**](https://github.com/NodeSchoolSF/how-to-database/blob/master/workshop/README.md).
